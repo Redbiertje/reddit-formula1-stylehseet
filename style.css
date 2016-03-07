@@ -1,0 +1,1316 @@
+/* prevent top margin */
+
+/*reset*/
+html:not([lang="ns"]) div#header,html:not([lang="ns"]) div#sr-header-area,html:not([lang="ns"]) div#header-bottom-right{border:0 none;background:none;border-radius:0}
+/* add this later: html:not([lang="ns"]) .link .rank */html:not([lang="ns"]) .side .submit-text,html:not([lang="ns"]) .submit .morelink .nub,html:not([lang="ns"]) h1.redditname,html:not([lang="ns"]) .side .leavemoderator,html:not([lang="ns"]) .side .leavecontributor-button,html:not([lang="ns"]) .sidebox.create,html:not([lang="ns"]) .bottom,.post-linkflair-practice .linkflair .md table .keyNavAnnotation,.post-linkflair-qualifying .linkflair .md table .keyNavAnnotation,.post-linkflair-post-qualifying .linkflair .md table .keyNavAnnotation,.post-linkflair-race .linkflair .md table .keyNavAnnotation,.post-linkflair-post-race .linkflair .md table .keyNavAnnotation{display:none}
+
+html:not([lang="ns"]) body{background:url(%%tile%%) repeat 0 0 scroll #f1f1f1;position:relative;}
+html:not([lang="ns"]) .res-nightmode { background-image:none; background-color:#444;}
+
+/*nostyle cleanup*/
+:lang(ns) .side blockquote blockquote{padding:0;margin:0;border:0}
+
+/*header*/
+html:not([lang="ns"]) #header{font-family:"Helvetica",Arial,sans-serif}
+html:not([lang="ns"]) div#header-bottom-left{height:60px;background:url(%%chequered%%) no-repeat right 0 scroll #222;border-bottom:2px solid #c90000}
+html:not([lang="ns"]) div#header-bottom-right{bottom:4px}
+html:not([lang="ns"]) div#header{background:#fff;height:80px;padding-bottom:35px;border-bottom:1px solid #ccc;box-shadow:0 0 1px #BEBEBE}
+html:not([lang="ns"]) div#header ul.tabmenu{position:absolute;top:87px;left:5px}
+html:not([lang="ns"]) #header-img{margin-top:5px;margin-right:5px;margin-left:10px}
+html:not([lang="ns"]) div#sr-header-area{background:#2d2d2d;color:#fff;border-bottom:1px solid #222;height:20px;line-height:20px}
+html:not([lang="ns"]) .pagename{font-weight:300;font-variant:inherit;font-size:6pt;position:absolute;text-transform:uppercase;letter-spacing:1px;color:rgb(204,204,204);top:42px;display:inline-block;vertical-align:inherit;font-style:italic;text-indent:-99999pt;margin-left:5px;background:url(%%sprite%%) no-repeat -2px -168px scroll transparent;height:26px;width:95px;padding-left:20px;}
+html:not([lang="ns"]) .pagename a{display:block;height:19px;margin-left:-20px;}
+html:not([lang="ns"]) #header-bottom-right{top:86px;font-size:11px;background:transparent;height:24px;line-height:28px;padding:0;margin-right:10px}
+html:not([lang="ns"]) #userbarToggle{background:none repeat scroll 0% 0% transparent!important;color:#000;border-right:1px solid #ccc!important;padding-right:5px!important;left:-13px!important;border-radius:0px!important;height:18px!important;line-height:22px!important;top:2px!important}
+html:not([lang="ns"]) div.res-navTop a{color:#000}
+html:not([lang=ns]) div#header-bottom-left .tabmenu li{border-right:1px dotted #ccc;margin:0;padding:0 5px}
+html:not([lang=ns]) div#header-bottom-left .tabmenu li a{background-color:transparent;font-size:13px;color:#2f2f2f}
+html:not([lang=ns]) div#header-bottom-left .tabmenu li.selected a{background-color:transparent;border:0 none;color:red}
+html:not([lang="ns"]) #sr-header-area a{color:#f1f1f1;background:#2d2d2d;}
+html:not([lang="ns"]) .dropdown.srdrop .selected{color:#f1f1f1}
+html:not([lang="ns"]) #sr-header-area .drop-choices.srdrop{z-index:1000;background:rgb(45,45,45);border-color:rgb(45,45,45)}
+html:not([lang="ns"]) .drop-choices a.choice:hover{color:#000!important}
+
+/*content*/
+html:not([lang="ns"]) div.content{margin:90px 331px 10px 10px;padding:20px;background:#fff}
+html:not([lang="ns"]) .listing-page div.content,
+html:not([lang="ns"]) .comments-page div.content{padding:0;background:transparent;position:relative}
+
+/*listings*/
+html:not([lang=ns]) .linklisting .thing.even{background-color:#F8F8F8}
+html:not([lang=ns]) .res-nightmode .linklisting .thing.even { background-color:#222; }
+html:not([lang=ns]) .linklisting .thing{padding:8px;border-left:3px solid #ccc;margin-bottom:1px;position:relative;background:#FCFCFC;box-shadow:0 0 1px #E7E7E7}
+html:not([lang=ns]) .res-nightmode .linklisting .thing { border-color:#000; }
+html:not([lang=ns]) .listing-page .entry{padding-left:5px}
+html:not([lang="ns"]) .link.last-clicked{border-bottom:0;border-top:0;border-right:0 none}
+html:not([lang="ns"]) .linklisting .thing.stickied{border-left:5px solid rgb(92,184,92);border-top:0;border-right:0;border-bottom:0}
+html:not([lang="ns"]) .linklisting .stickied .entry a.title{width:inherit;color:rgb(34,136,34)!important;font-weight:normal}
+html:not([lang="ns"]) .listing-page .expando .md,.link .usertext .md{padding:10px;border-top:1px dotted rgb(204,204,204);border-radius:0px;line-height:1.4;border-left:0;border-right:0;border-bottom:0!important;background-color:#fff}
+html:not([lang="ns"]) .comments-page .link .usertext .md{border-bottom:1px dotted rgb(204,204,204)}
+html:not([lang="ns"]) .listing-page .thing:hover .expando .md{background:none repeat scroll 0% 0% rgb(250,250,250)}
+
+html:not([lang="ns"]) .linkinfo .date {
+  padding: 8px;
+  background: #fff;
+  margin: -5px -5px 5px;
+  border-bottom: 1px solid #f1f1f1;
+  text-align: center;
+}
+
+html:not([lang="ns"]) .linkinfo .score {
+  background: #F9F9F9;
+  padding: 10px 10px 20px;
+  margin: -5px -5px 5px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+}
+
+html:not([lang="ns"]) .linkinfo span.totalvotes {
+  margin: -25px 0 15px;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+html:not([lang="ns"]) .linkinfo .shortlink {
+  text-align: center;
+  padding: 0 5px 4px;
+}
+
+html:not([lang="ns"]) .linkinfo span.number,
+html:not([lang="ns"]) .linkinfo span.word
+ {
+  color:#4c4c4c;
+}
+
+html:not([lang="ns"]) .linkinfo { background-color:#F4F4F4; }
+
+/*comments*/
+html:not([lang="ns"]) .comments-page div.content{padding:0;background:none}
+html:not([lang="ns"]) .comments-page .commentarea{margin-top:5px;padding:0}
+html:not([lang="ns"]) .comments-page .sitetable{background:#fff}
+html:not([lang="ns"]) .comments-page .commentarea .sitetable{background:none;margin-top:15px;border-left:0 none}
+html:not([lang="ns"]) .commentarea>.usertext{padding:0 20px;overflow:auto;background:#fff;margin:0}
+html:not([lang="ns"]) .commentarea .menuarea{border:none;margin:0;padding:10px 20px 0px;color:gray;background:#fff}
+html:not([lang="ns"]) .panestack-title{padding:10px 20px;border-bottom:1px dotted gray;background:#fff;margin:0}
+html:not([lang="ns"]) #noresults{width:100%;text-align:center;padding:10px 0;font-weight:bold;text-shadow:0 1px 0 #fff}
+html:not([lang="ns"])  .comment .child{border-left:0 none}
+html:not([lang="ns"]) .res .commentarea .thing{border-top:0!important;border-bottom:0!important;border-right:0!important;margin-left:0!important;margin-right:0!important}
+html:not([lang="ns"]) .commentarea .thing{background:#fff;border-left:3px #ccc solid!important;padding:5px;margin:0 0 3px 0;border-top:medium none;border-right:medium none;border-bottom:medium none}
+html:not([lang="ns"]) .commentarea>.thing{box-shadow:0px 0px 1px rgb(227,227,227)}
+html:not([lang="ns"]) .commentarea .thing .entry{padding:3px 5px 0}
+html:not([lang="ns"]) .usertext.grayed .usertext-body{margin-top:10px}
+html:not([lang="ns"]) .thing .morerecursion{margin-bottom:10px}
+html:not([lang="ns"]) .commentarea .child .thing{border:none;border-left:2px rgb(227,227,227) solid!important;padding:5px 5px 2px 4px;background:#f7f7f7}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing{border:none;border-left:1px #ccc solid!important;background:#fff}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#f7f7f7}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#fff}
+html:not([lang="ns"]) .commentarea .thing.spam{background-color:#FA8072!important}
+
+/*sidebar*/
+html:not([lang="ns"]) .side{background:#ededed;margin:0;padding:465px 10px 10px;border-left:1px solid #d6d6d6;border-bottom:1px solid #f4f4f4}
+html:not([lang="ns"]) .res-nightmode .side { background:#171717;border-color:#000 }
+html:not([lang="ns"]) .listing-page .side{padding-top:668px;}
+html:not([lang="ns"]) .titlebox .md > ul:nth-of-type(3):hover {
+height: 507px;
+z-index: 10000;
+overflow:visible;
+}
+html:not([lang="ns"]) .titlebox .md blockquote{margin:0;padding:0;border:0}
+html:not([lang="ns"]) .side .spacer{background:#fff;border-radius:3px}
+html:not([lang="ns"]) .res-nightmode .side .spacer {background: #222;}
+html:not([lang="ns"]) .side .spacer>div{border:1px solid #e2e2e2;border-radius:3px}
+html:not([lang="ns"]) .res-nightmode .side .spacer>div { border-color:#000; }
+html:not([lang="ns"]) .side .spacer>div.sponsorshipbox{border:0 none}
+html:not([lang="ns"]) .sidecontentbox,.spacer .titlebox{padding:12px}
+html:not([lang="ns"]) .sidecontentbox .title{margin-bottom:10px}
+html:not([lang="ns"]) .sidecontentbox .title h1{font-weight:900;color:#000}
+html:not([lang="ns"]) .res-nightmode .sidecontentbox .title h1 { color:#ccc; border:0 none; }
+html:not([lang="ns"]) #moderation_tools span.collapse-button{position:absolute;right:14px}
+html:not([lang="ns"]) .sidecontentbox .content{border:0 none;border-top:1px solid #ededed;background:#fff}
+html:not([lang="ns"]) .res-nightmode .sidecontentbox .content { background-color:#222;border-color:#000; }
+html:not([lang="ns"]) .side .spacer:last-of-type{padding-bottom:0;margin-bottom:0}
+html:not([lang="ns"]) .account-activity-box{margin-top:-2px;padding:10px 0;border-top:10px solid #ededed}
+html:not([lang="ns"]) .titlebox .md{font-size:100%;border-top:2px solid #ebebeb;margin:12px 9px -23px}
+html:not([lang="ns"]) .side .usertext-body{margin:0px -22px}
+html:not([lang="ns"]) .titlebox .md>p{padding:0 10px 10px;border-bottom:10px solid #ededed;margin-bottom:0}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>p { border-color:#171717; }
+html:not([lang="ns"]) .titlebox .md>h1{border-top:1px solid #e2e2e2;margin:0 1px;padding:10px 10px 8px;font-size:10pt;text-transform:uppercase;font-weight:900;font-family:verdana,arial,helvetica,sans-serif;background:rgb(255,255,255);color:#2C2C2C;border-bottom:1px solid #e2e2e2}
+
+html:not([lang="ns"]) .res-nightmode .titlebox .md>h1 { border-color:#000; background-color:#222;color:#ccc }
+html:not([lang="ns"]) .res-nightmode .titlebox .md {border-color: #171717;}
+
+/*race guide*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before{content:"";display:block;height:200px;width:300px;margin:-10px -10px 10px;background:url(%%race-pic%%) no-repeat 0 0 scroll transparent}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3) ul{list-style-type:none;padding:0;margin:0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3){position:absolute;top:265px;list-style-type:none;padding:0;margin:0;width:300px;font-family:'Helvetica',verdana,arial sans-serif;background:#3c3c3c; height:305px;overflow:hidden;}
+html:not([lang="ns"]) .listing-page .titlebox .md>ul:nth-of-type(3){height:auto;overflow:visible;border-bottom:1px solid #3c3c3c;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type{background:url("%%chequered%%") no-repeat -60px 224px scroll #222;padding:10px;font-size:12pt;text-align:left;font-weight:900;color:#fff;border:0 none;text-transform:uppercase;margin:0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li{font-size:12px !important;font-weight:normal;padding-top:4px;text-transform:none}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li{background:#222;color:#fff;margin:1px 0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p{text-indent:25px;color:#b9b9b9;cursor:pointer;padding:10px;margin:0;font-size:10pt !important;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type {
+padding: 5px;
+background: #3C3C3C;
+margin-top: 6px;
+font-size: 15px!important;
+font-weight: 100;
+color: rgb(26, 255, 0);
+text-shadow: 1px 1px 0 #171717;
+}html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type strong { font-weight:normal }
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:hover>p{text-indent:25px;color:#fff}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p:before{display:block;content:"";width:18px;height:18px;position:absolute;background:url("%%sprite%%") no-repeat 0 -17px transparent;margin-top:-2px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type:after {
+content: "- hover over this box for race guide & standings -";
+display: block;
+font-size: 10px;
+font-weight: 100;
+text-decoration: none;
+text-transform: None;
+margin-top: 2px;
+text-align: center;
+color: #818181;
+}
+html:not([lang="ns"]) .listing-page .titlebox .md>ul:nth-of-type(3)>li:first-of-type:after,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3):hover>li:first-of-type:after { display:none; }
+/*hover*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2)>p:before{background-position:-17px -17px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2):hover>p:before{background-position:-17px 0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3)>p:before{background-position:0 -17px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3):hover>p:before{background-position:0 0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4)>p:before{background-position:-70px -17px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4):hover>p:before{background-position:-70px 0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5)>p:before{background-position:-34px -17px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5):hover>p:before{background-position:-34px 0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6)>p:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(7)>p:before{background-position:-52px -17px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6):hover>p:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(7):hover>p:before{background-position:-52px 0}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2):hover:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3):hover:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4):hover:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5):hover:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6):hover:before,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(7):hover:before{display:block;content:"";background:#f1f1f1;height:10px;width:10px;position:absolute;margin-top:12px;left:-5px;z-index:101;-webkit-transform:rotate(45deg)}
+
+/*pops*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote{display:none;min-height:300px;color:#000;position:absolute;right:-9999pt;top:200px;width:325px;background:#f1f1f1;border:1px solid #CCC;padding:8px;z-index:100;opacity:0;-webkit-transition:opacity .4s}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:hover blockquote{display:block;opacity:1;right:300px;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4)>blockquote {
+  width: 450px;
+}
+/*pop content*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote p {
+padding: 5px;
+margin: 10px 0 -10px;
+}
+
+/*stickies*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1){position:absolute;top:123px;left:10px;background:#FFF;list-style-type:none;margin:0;padding:0;padding-right:5px;border:1px solid rgba(187,187,187,0.52)}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li{display:inline;margin:0;padding:8px;border-left:1px solid #e2e2e2;float:left}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(3){font-weight:bold;text-align:center;border-left:0 none;background:#222;color:#fff;position:relative}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(1):after,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(3):after{content:"";display:block;height:8px;width:8px;background:#222;position:absolute;-webkit-transform:rotate(-45deg);right:-4px;top:12px;bottom:auto}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) {
+top: 124px;
+right: 332px;
+position: absolute;
+/*z-index: 1000;*/
+margin: 0;
+padding: 0;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li {display:block;background-color:#B00000;border-color:#C50000;background-image:-webkit-linear-gradient(top,#C20306,#B00000);background:-moz-linear-gradient(top,#C20306,#B00000);background:-ms-linear-gradient(top,#C20306,#B00000);background:-o-linear-gradient(top,#C20306,#B00000);color:#fff;cursor:pointer;text-transform:uppercase;font-weight:900;font-size:10px;padding:10px 30px 10px 10px}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li:hover ul{display:block}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li ul{display:none;position:absolute;right:-1px;top:32px;margin:0;padding:0;width:100%;text-align:left;background:#f2f2f2;color:#000;list-style-type:none;border-left:1px solid #ddd;border-right:1px solid #ddd;font-size:100%;z-index:1001}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li ul li{border-bottom:0px solid #fff;padding:0 8px;font-size:13px;font-weight:normal;text-transform:none;border-right:0px solid #fff;cursor:default}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li:after{content:"";width:0;height:0;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid #fff;right:11px;top:12px;position:absolute;display:block;box-shadow:-1px 0px 0px #A00000}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li:hover:after{-webkit-transform:rotate(90deg)}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li ul li a{width:100%;display:block;border-bottom:1px dotted #ccc;padding:5px 0;color:#222}
+
+
+
+/*quick menus*/
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote{max-height:0;overflow:hidden;opacity:0;background:transparent;padding-top:0;position:absolute;top:51px;border-top:2px solid #454545;-webkit-transition:max-height 0.5s, opacity 0.5s;-moz-transition:max-height 0.5s, opacity 0.5s;-o-transition:max-height 0.5s, opacity 0.5s;transition:max-height 0.5s, opacity 0.5s;}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2){top:30px;left:0px;position:absolute;z-index:1000;display:block}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>h1,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>h1{display:block;height:61px;width:58px;background:#222;position:absolute;top:-10px;left:190px;text-indent:-999pt;border-radius:0;color:#fff;border-right:1px solid #2C2C2C;border-left:1px solid #2C2C2C;margin:0;padding:0;cursor:pointer}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote{background:#f2f2f2}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):hover>blockquote,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):hover>blockquote{max-height:600px;opacity:1;transition-delay:0.5s;-webkit-transition-delay:0.5s;-moz-transition-delay:0.5s;-o-transition-delay:0.5s;}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>h1{left:249px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):hover>blockquote>ul,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):hover>blockquote>ul{background:#f2f2f2;margin:0;padding:0;width:633px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul{padding:15px 15px 0}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote{background:#f2f2f2;width:200px;float:left;min-height:365px;border-right:1px solid #fff}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1) ul,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2) ul{margin:0;list-style-type:none}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote{width:718px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul>li>ul,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li>ul{font-size:10pt;line-height:1.9em;font-weight:normal;padding:5px 0 15px 0;color:#000;font-style:normal;border-top:1px solid #e2e2e2;margin-top:5px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul>li,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li{font-size:12pt;font-weight:600;color:#474747;}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li li em{color: #474747;
+font-style: normal;
+font-weight: bold;
+font-size: 8pt!important;
+text-transform: uppercase;}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote ul>li>ul>li>a{font-size:10pt!important;font-weight:normal;text-transform:none;font-variant:normal}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(2),
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote:nth-of-type(2){width:180px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(2){width:230px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(3){width:305px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote{width:563px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote{min-height:472px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):before,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):before{display:block;content:"";height:18px;width:25px;position:absolute;z-index:1000;top:13px;cursor:pointer;background:url(%%sprite%%) no-repeat 0 0 scroll transparent}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):before{left:209px;background-position:-1px -61px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):before{left:266px;background-position:-30px -61px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):hover:before{background-position:-1px -36px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):hover:before{background-position:-30px -36px}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>h1:after,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>h1:after{content:"";height:10px;width:10px;background:#f2f2f2;display:block;position:absolute;bottom:-7px;left:24px;-webkit-transform:rotate(45deg);z-index:100;opacity:0;-webkit-transition:opacity .8s;-moz-transition:opacity .8s;-o-transition:opacity .8s;transition:opacity .8s;}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1):hover>h1:after,
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2):hover>h1:after{opacity:1;-webkit-transition-delay:.8s;transition-delay:.8s;-o-transition-delay:.8s;-moz-transition-delay:.8s}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul>li>ul>li, html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li>ul>li {
+line-height: 1.9em;
+}
+
+/*flair selector*/
+html:not([lang="ns"]) form.toggle.flairtoggle{background:rgb(238,243,244);padding:10px;margin:10px -11px;border-top:1px solid #DFDFDF}
+html:not([lang="ns"]) .titlebox .tagline{
+background:rgb(238,243,244);
+margin:-10px -11px 0!important;
+padding:0 11px 11px;
+width:100%;
+display:block;
+text-align:center;
+border-bottom:1px solid #E7E7E7;
+}
+
+/*search*/
+html:not([lang="ns"]) .side #search{top:127px;right:10px;position:absolute;z-index:2}
+html:not([lang="ns"]) #search input[type="text"]{height:32px;border-color:#c0c0c0}
+
+/*Session Threads*/
+.post-linkflair-practice .linkflair .md hr,
+.post-linkflair-qualifying .linkflair .md hr,
+.post-linkflair-post-qualifying .linkflair .md hr,
+.post-linkflair-race .linkflair .md hr,
+.post-linkflair-post-race .linkflair .md hr{height:1px;background:#ccc;border:0 none;margin:15px 0}
+
+.post-linkflair-practice .linkflair .md h3,
+.post-linkflair-qualifying .linkflair .md h3,
+.post-linkflair-post-qualifying .linkflair .md h3,
+.post-linkflair-race .linkflair .md h3,
+.post-linkflair-post-race .linkflair .md h3{text-align:center;font-size:14pt;margin-bottom:10px}
+
+.post-linkflair-practice .linkflair .md h4,
+.post-linkflair-qualifying .linkflair .md h4,
+.post-linkflair-post-qualifying .linkflair .md h4,
+.post-linkflair-race .linkflair .md h4,
+.post-linkflair-post-race .linkflair .md h4{font-size:12pt;margin-bottom:10px}
+
+.post-linkflair-practice .linkflair .md table:nth-of-type(1),
+.post-linkflair-qualifying .linkflair .md table:nth-of-type(1),
+.post-linkflair-post-qualifying .linkflair .md table:nth-of-type(1),
+.post-linkflair-race .linkflair .md table:nth-of-type(1),
+.post-linkflair-post-race .linkflair .md table:nth-of-type(1){margin:0 auto 10px;width:100%}
+
+.post-linkflair-practice .linkflair .md table th,
+.post-linkflair-qualifying .linkflair .md table th,
+.post-linkflair-post-qualifying .linkflair .md table th,
+.post-linkflair-race .linkflair .md table th,
+.post-linkflair-post-race .linkflair .md table th{border-right:1px solid #525252;border-top:none;border-left:none;border-bottom:1px solid #525252}
+.linkflair .md table tr:nth-of-type(even){background:#f6f6f6}.linkflair .md table tr{background:#f9f9f9}
+.linkflair .md table tr:hover{background:#fff}.res-nightmode .linkflair .md table th{border:1px solid #000}
+.res-nightmode .linkflair .md table tr:nth-of-type(even){background:#222}
+.res-nightmode .linkflair .md table tr{background:#393939}
+.res-nightmode .linkflair .md table tr:hover{background:#2e2e2e}
+.res-nightmode .linkflair .md table td{border-color:#000}
+.linkflair .md table:hover tr{display:table-row}
+.linkflair .md table th{background:#000;color:#fff;padding:5px}
+.linkflair .md table td{padding:5px}
+.linkflair .md table a{top:1px}
+.post-linkflair-qualifying .linkflair .md p:first-child,
+.post-linkflair-race .linkflair .md p:first-child{text-align:center}
+.linkflair-race .md table span.keyNavAnnotation,
+.linkflair-qualifying .md table span.keyNavAnnotation{display:none!important}
+.linkflair-race .md table:nth-of-type(2) tr td:nth-of-type(1),
+.linkflair-qualifying .md table:nth-of-type(2) tr td:nth-of-type(1),
+.linkflair-race .md table:nth-of-type(2) tr th:nth-of-type(1),
+.linkflair-qualifying .md table:nth-of-type(2) tr th:nth-of-type(1){width:32px;text-align:center}
+.linkflair-race .md table:nth-of-type(2) tr td:nth-of-type(2),
+.linkflair-qualifying .md table:nth-of-type(2) tr td:nth-of-type(2){width:115px}
+.linkflair-qualifying .md table:nth-of-type(2) tr td:nth-of-type(5),
+.linkflair-qualifying .md table:nth-of-type(2) tr td:nth-of-type(6),
+.linkflair-qualifying .md table:nth-of-type(2) tr td:nth-of-type(7),
+.linkflair-qualifying .md table:nth-of-type(2) tr th:nth-of-type(5),
+.linkflair-qualifying .md table:nth-of-type(2) tr th:nth-of-type(6),
+.linkflair-qualifying .md table:nth-of-type(2) tr th:nth-of-type(7){width:60px;text-align:center}
+
+/*buttons*/
+div.titlebox>div:nth-of-type(1){padding-bottom:2px}
+html:not([lang="ns"]) .titlebox .subButtons{padding:10px 0 5px}
+html:not([lang="ns"]) .fancy-toggle-button .active,
+html:not([lang="ns"]) .RESshortcut.RESshortcutside.remove,
+html:not([lang="ns"]) .REStoggle.RESDashboardToggle.remove,
+html:not([lang="ns"]) .REStoggle.RESDashboardToggle,
+html:not([lang="ns"]) .RESshortcut.RESshortcutside{padding:4px 8px!important;width:auto!important;line-height:1!important;margin:0!important;display:inline-block!important;margin-right:5px!important}
+html:not([lang="ns"]) .fancy-toggle-button .remove,
+html:not([lang="ns"]) .RESshortcutside.remove,
+html:not([lang="ns"]) .REStoggle.remove{color:rgb(255,255,255)!important;background-color:rgb(217,83,79)!important;border-color:rgb(212,63,58)!important;background-image:none!important}
+html:not([lang="ns"]) .RESshortcutside,html:not([lang="ns"]) .REStoggle{color:rgb(255,255,255);background-color:rgb(92,184,92);border-color:rgb(76,174,76)!important;background-image:none!important}
+html:not([lang="ns"]) .side .spacer .submit-link{position:absolute;top:170px;right:10px;width:298px}
+html:not([lang="ns"]) .submit-link .morelink{color:#fff;background-color:#B00000;border-color:#C50000;background-image:-webkit-linear-gradient(top,#C20306,#B00000);background:-moz-linear-gradient(top,#C20306,#B00000);background:-ms-linear-gradient(top,#C20306,#B00000);background:-o-linear-gradient(top,#C20306,#B00000);height:32px;line-height:32px;text-transform:uppercase;background-position:0;text-shadow:0 1px 0 #5C0000}
+html:not([lang="ns"]) .submit-link .morelink a{color:rgb(255,255,255);font-size:16px;font-weight:900;letter-spacing:.5px}
+
+/*Custom Mail Icon*/
+html:not([lang=ns]) #mail.havemail,html:not([lang=ns]) #mail.nohavemail{background:url(%%sprite%%) no-repeat 0 0 scroll transparent;width:16px!important;height:16px;top:4px!important}html:not([lang=ns]) #mail.havemail{background-position:-111px -38px;margin-right:5px}html:not([lang=ns]) #mail.nohavemail{background-position:-111px -22px;opacity:.5}
+
+/*flair selection*/
+.flair{width:20px;height:16px;line-height:16px;overflow:hidden;vertical-align:middle;font-size:inherit;background-color:transparent;color:#222;padding:2px;margin-right:3px;border-width:0;border-radius:3px;padding-bottom:4px}
+.flairoptionpane .flair-label:before,.flair-empty:before,span.flair.flair-empty,.flairoptionpane .author{display:none}
+.flairoptionpane .flair:hover{width:auto;border-width:0;padding:4px;margin:0}
+.flairoptionpane .flair{background:none;border:0 none;width:auto;border-width:0}
+.flairoptionpane li{text-align:left!important;padding:0;margin-right:5px;border:0 none}
+.flairoptionpane li:hover{background:#f2f2f2;border:0px none}
+.flairoptionpane li .flair-label{background:#ccc;border-radius:3px;font-weight:bold;font-size:9pt;text-align:center;margin:0;display:block}
+.flairselector li.selected{border:0 none;font-weight:bold}
+*+html .flair,.flair:hover{width:auto;border-width:1px;background-color:#f5f5f5;padding:1px 1ex 3px 1px}
+
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(3) a{position:relative;text-indent:25px;padding-left:0;width:100%;display:block}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote:nth-of-type(3) a:before{content:"";display:inline-block;width:22px;height:18px;background-image:url(%%flair-block%%);background-repeat:no-repeat;top:3px;left:0;position:absolute}
+
+html:not([lang="ns"]) .side a[href="http://formula1.ferrari.com"]:before {
+  background-position: 0 -936px;
+}
+
+html:not([lang="ns"]) .side a[href="http://forceindiaf1.com"]:before {
+  background-position: 0 -1008px;
+}
+
+html:not([lang="ns"]) .side a[href="http://lotusf1team.com"]:before {
+  background-position: 0 -1962px;
+}
+
+html:not([lang="ns"]) .side a[href="http://mclaren.com/formula1"]:before {
+  background-position: 0 -2214px;
+}
+
+html:not([lang="ns"]) .side a[href="http://mercedes-amg-f1.com"]:before {
+  background-position: 0 -2232px;
+}
+
+html:not([lang="ns"]) .side a[href="http://infiniti-redbullracing.com"]:before {
+  background-position: 0px -2610px;
+}
+
+html:not([lang="ns"]) .side a[href="http://sauberf1team.com"]:before {
+  background-position: 0 -2790px;
+}
+
+html:not([lang="ns"]) .side a[href="http://scuderiatororosso.com"]:before {
+  background-position: 0 -3096px;
+}
+
+html:not([lang="ns"]) .side a[href="http://williamsf1.com"]:before {
+  background-position: 0 -3240px;
+}
+
+html:not([lang="ns"]) .side a[href="http://manorf1team.com"]:before {
+  background-position: 0 -2035px;
+}
+
+/*Link Flair*/
+/*Default Display*/
+html:not([lang="ns"]) p.title>.linkflairlabel{padding:0 4px;border-radius:1px;background:#323232;color:#fff}
+/*Link Flair Colors*/
+html:not([lang="ns"]) .linkflair-star p.title:before{background:url(%%sprite%%) no-repeat scroll -111px -1px transparent;text-indent:20px;display:inline-block;height:16px;width:18px;content:""}
+html:not([lang="ns"]) div.linkflair-star p.title>.linkflairlabel{display:none}
+.linkflair-star p.title .domain{text-indent:0}
+/*Link Flair Colors*/
+html:not([lang="ns"]) .linkflair-paywall p.title>.linkflairlabel{color:rgb(115,230,115)}
+html:not([lang="ns"]) .linkflair-rumour p.title>.linkflairlabel{color:orange}
+html:not([lang="ns"]) .linkflair-video p.title>.linkflairlabel{color:red}
+html:not([lang="ns"]) .linkflair-off-topic p.title>.linkflairlabel{color:rgb(27,227,241)}
+
+html:not([lang="ns"]) .linkflair-mod-comment p.title>.linkflairlabel{
+  background-color: #cccccc!important;
+  color: #000!important;
+  border: 1px solid #BEBEBE!important;
+}
+
+html:not([lang="ns"]) .linkflair-mod-removal p.title>.linkflairlabel {
+  background-color: #FF7878!important;
+  color: #000!important;
+  border: 1px solid #FF3A3A!important;
+}
+
+html:not([lang="ns"]) .linkflair-sub-wec p.title>.linkflairlabel {
+  background-color: #234e70!important;
+  color: #96BF0D!important;
+}
+
+html:not([lang="ns"]) .linkflair-sub-all p.title>.linkflairlabel {
+  background-color: orangered!important;
+  color: #fff!important;
+}
+
+
+html:not([lang="ns"]) .linkflair-sub-f1feederseries p.title>.linkflairlabel {
+  background-color: #00E1E2!important;
+  color: #000!important;
+}
+
+html:not([lang="ns"]) .linkflair-sub-supergt p.title>.linkflairlabel {
+  background-color: #BA3538!important;
+  color: #FFF!important;
+}
+
+/*Filters*/
+.sitetable.linklisting .thing .flair,ul.content span.flair,
+html:lang(wt) .link:not(.linkflair-feature),
+html:lang(so) .link,
+html:lang(hs) .link.linkflair-race,
+html:lang(hs) .link.linkflair-qualifying,
+html:lang(hs) .link.linkflair-post-race,
+html:lang(hs) .link.linkflair-post-qualifying,
+html:lang(hs) .link.linkflair-practice{display:none}
+html:lang(so) .link.linkflair-race,
+html:lang(so) .link.linkflair-qualifying,
+html:lang(so) .link.linkflair-post-race,
+html:lang(so) .link.linkflair-post-qualifying,
+html:lang(so) .link.linkflair-practice{display:block}
+html:not([lang="ns"]) .thing.linkflair.linkflair-race{border-left:5px solid #6db81c}
+html:not([lang="ns"]) .thing.linkflair.linkflair-qualifying{border-left:5px solid #369}
+html:not([lang="ns"]) .thing.linkflair.linkflair-post-race,
+html:not([lang="ns"]) .thing.linkflair.linkflair-post-qualifying{border-left:5px solid #6D6D6D}
+html:not([lang="ns"]) .thing.linkflair.linkflair-practice{border-left:5px solid rgb(210,50,45)}
+html:not([lang="ns"]) .thing.linkflair.linkflair-feature{border-left:5px solid #0D0D0D}
+html:not([lang="ns"]) .thing.linkflair.linkflair-meetup{border-left:5px solid #0D0D0D}
+html:not([lang="ns"]) .linkflairlabel{border:0px none;color:#000;line-height:1.5em}
+html:not([lang="ns"]) .linkflair-practice p.title>.linkflairlabel,
+html:not([lang="ns"]) .linkflair-qualifying p.title>.linkflairlabel,
+html:not([lang="ns"]) .linkflair-race p.title>.linkflairlabel{color:#fff;border:0 none;display:inline-block}
+html:not([lang="ns"]) .linkflair-practice p.title>.linkflairlabel{background:rgb(210,50,45)}
+html:not([lang="ns"]) .linkflair-qualifying p.title>.linkflairlabel{background:#369}
+html:not([lang="ns"]) .linkflair-post-qualifying p.title>.linkflairlabel{background:#6D6D6D;color:#FFF}
+html:not([lang="ns"]) .linkflair-post-race p.title>.linkflairlabel{background:#6D6D6D;color:#FFF}
+html:not([lang="ns"]) .linkflair-race p.title>.linkflairlabel{background:#6db81c}
+html:not([lang="ns"]) .linkflair-feature p.title>.linkflairlabel{background:#000;color:#fff}
+
+/* filter images */
+html:not([lang="ns"]) .linkflair-practice a.thumbnail,
+html:not([lang="ns"]) .linkflair-qualifying a.thumbnail,
+html:not([lang="ns"]) .linkflair-post-qualifying a.thumbnail,
+html:not([lang="ns"]) .linkflair-post-race a.thumbnail,
+html:not([lang="ns"]) .linkflair-race a.thumbnail,
+html:not([lang="ns"]) .linkflair-meetup a.thumbnail,
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="australian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="albert_park"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="malaysian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="sepang"]
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="malaysia"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="sepang"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="bahrain"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="chinese"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="shanghai"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="spanish"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="monaco"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="canadian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="canada"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="montreal_gp"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="circuit_gilles"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="austrian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="british"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="german"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="hungarian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="belgian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="italian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="singapore"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="japanese"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="russian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="sochi"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="united_states"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="brazilian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="abu_dhabi"]{background-image:url(%%flag-med-sprite%%);width:60px;height:60px;border-radius:2px}
+
+/*Country Flags*/
+html:not([lang="ns"]) a[href="#au"],html:not([lang="ns"]) a[href="/au"],
+html:not([lang="ns"]) a[href="#br"],html:not([lang="ns"]) a[href="/br"],
+html:not([lang="ns"]) a[href="#de"],html:not([lang="ns"]) a[href="/de"],
+html:not([lang="ns"]) a[href="#be"],html:not([lang="ns"]) a[href="/be"],
+html:not([lang="ns"]) a[href="#dk"],html:not([lang="ns"]) a[href="/dk"],
+html:not([lang="ns"]) a[href="#es"],html:not([lang="ns"]) a[href="/es"],
+html:not([lang="ns"]) a[href="#en"],html:not([lang="ns"]) a[href="/en"],
+html:not([lang="ns"]) a[href="#gb"],html:not([lang="ns"]) a[href="/gb"],
+html:not([lang="ns"]) a[href="#fi"],html:not([lang="ns"]) a[href="/fi"],
+html:not([lang="ns"]) a[href="#fr"],html:not([lang="ns"]) a[href="/fr"],
+html:not([lang="ns"]) a[href="#mx"],html:not([lang="ns"]) a[href="/mx"],
+html:not([lang="ns"]) a[href="#nl"],html:not([lang="ns"]) a[href="/nl"],
+html:not([lang="ns"]) a[href="#ru"],html:not([lang="ns"]) a[href="/ru"],
+html:not([lang="ns"]) a[href="#ve"],html:not([lang="ns"]) a[href="/ve"],
+html:not([lang="ns"]) a[href="#se"],html:not([lang="ns"]) a[href="/se"],
+html:not([lang="ns"]) a[href="#it"],html:not([lang="ns"]) a[href="/it"],
+html:not([lang="ns"]) a[href="#jp"],html:not([lang="ns"]) a[href="/jp"],
+html:not([lang="ns"]) a[href="#ch"],html:not([lang="ns"]) a[href="/ch"],
+html:not([lang="ns"]) a[href="#at"],html:not([lang="ns"]) a[href="/at"],
+html:not([lang="ns"]) a[href="#in"],html:not([lang="ns"]) a[href="/in"],
+html:not([lang="ns"]) a[href="#my"],html:not([lang="ns"]) a[href="/my"],
+html:not([lang="ns"]) a[href="#ca"],html:not([lang="ns"]) a[href="/ca"],
+html:not([lang="ns"]) a[href="#us"],html:not([lang="ns"]) a[href="/us"],
+html:not([lang="ns"]) a[href="#co"],html:not([lang="ns"]) a[href="/co"],
+html:not([lang="ns"]) a[href="#cn"],html:not([lang="ns"]) a[href="/cn"],
+html:not([lang="ns"]) a[href="#bh"],html:not([lang="ns"]) a[href="/bh"],
+html:not([lang="ns"]) a[href="#mc"],html:not([lang="ns"]) a[href="/mc"],
+html:not([lang="ns"]) a[href="#hu"],html:not([lang="ns"]) a[href="/hu"],
+html:not([lang="ns"]) a[href="#sg"],html:not([lang="ns"]) a[href="/sg"],
+html:not([lang="ns"]) a[href="#ae"],html:not([lang="ns"]) a[href="/ae"],
+html:not([lang="ns"]) a[href="#po"],html:not([lang="ns"]) a[href="/po"],
+html:not([lang="ns"]) a[href="#ar"],html:not([lang="ns"]) a[href="/ar"],
+html:not([lang="ns"]) a[href="#no"],html:not([lang="ns"]) a[href="/no"],
+html:not([lang="ns"]) a[href="#sct"],html:not([lang="ns"]) a[href="/sct"]
+{background-image:url(%%flags%%);background-repeat:no-repeat;background-color:transparent;width:16px;height:11px;text-indent:-99999pt;display:inline-block;position:relative;margin-right:2px;top:1px;padding:0}
+html:not([lang="ns"]) a[href="#au"],html:not([lang="ns"]) a[href="/au"]{background-position:-32px -33px}
+html:not([lang="ns"]) a[href="#br"],html:not([lang="ns"]) a[href="/br"]{background-position:-172px -61px}
+html:not([lang="ns"]) a[href="#de"],html:not([lang="ns"]) a[href="/de"]{background-position:-284px -117px}
+html:not([lang="ns"]) a[href="#be"],html:not([lang="ns"]) a[href="/be"]{background-position:-228px -33px}
+html:not([lang="ns"]) a[href="#co"],html:not([lang="ns"]) a[href="/co"]{background-position:-60px -117px}
+html:not([lang="ns"]) a[href="#dk"],html:not([lang="ns"]) a[href="/dk"]{background-position:-32px -145px}
+html:not([lang="ns"]) a[href="#es"],html:not([lang="ns"]) a[href="/es"]{background-position:-4px -173px}
+html:not([lang="ns"]) a[href="#jp"],html:not([lang="ns"]) a[href="/jp"]{background-position:-256px -257px}
+html:not([lang="ns"]) a[href="#gb"],html:not([lang="ns"]) a[href="/gb"]{background-position:-284px -173px}
+html:not([lang="ns"]) a[href="#fi"],html:not([lang="ns"]) a[href="/fi"]{background-position:-88px -173px}
+html:not([lang="ns"])  a[href="#fr"],html:not([lang="ns"]) a[href="/fr"]{background-position:-228px -173px}
+html:not([lang="ns"]) a[href="#mx"],html:not([lang="ns"]) a[href="/mx"]{background-position:-172px -369px}
+html:not([lang="ns"]) a[href="#nl"],html:not([lang="ns"]) a[href="/nl"]{background-position:-116px -397px}
+html:not([lang="ns"]) a[href="#ru"],html:not([lang="ns"]) a[href="/ru"]{background-position:-144px -453px}
+html:not([lang="ns"]) a[href="#ve"],html:not([lang="ns"]) a[href="/ve"]{background-position:-172px -565px}
+html:not([lang="ns"]) a[href="#it"],html:not([lang="ns"]) a[href="/it"]{background-position:-172px -257px}
+html:not([lang="ns"]) a[href="#in"],html:not([lang="ns"]) a[href="/in"]{background-position:-32px -257px}
+html:not([lang="ns"]) a[href="#se"],html:not([lang="ns"]) a[href="/se"]{background-position:-32px -481px}
+html:not([lang="ns"]) a[href="#at"],html:not([lang="ns"]) a[href="/at"]{background-position:-4px -33px}
+html:not([lang="ns"]) a[href="#ch"],html:not([lang="ns"]) a[href="/xh"]{background-position:-198px -89px}
+html:not([lang="ns"]) a[href="#in"],html:not([lang="ns"]) a[href="/in"]{background-position:-32px -257px}
+html:not([lang="ns"]) a[href="#ca"],html:not([lang="ns"]) a[href="/ca"]{background-position:-60px -89px}
+html:not([lang="ns"]) a[href="#us"],html:not([lang="ns"]) a[href="/us"]{background-position:-4px -565px}
+html:not([lang="ns"]) a[href="#my"],html:not([lang="ns"]) a[href="/my"]{background-position:-200px -369px}
+html:not([lang="ns"]) a[href="#cn"],html:not([lang="ns"]) a[href="/cn"]{background-position:-32px -117px}
+html:not([lang="ns"]) a[href="#bh"],html:not([lang="ns"]) a[href="/bh"]{background-position:-4px -61px}
+html:not([lang="ns"]) a[href="#mc"],html:not([lang="ns"]) a[href="/mc"]{background-position:-256px -229px}
+html:not([lang="ns"]) a[href="#hu"],html:not([lang="ns"]) a[href="/hu"]{background-position:-228px -229px}
+html:not([lang="ns"]) a[href="#sg"],html:not([lang="ns"]) a[href="/sg"]{background-position:-60px -481px}
+html:not([lang="ns"]) a[href="#ae"],html:not([lang="ns"]) a[href="/ae"]{background-position:-32px -5px}
+html:not([lang="ns"]) a[href="#ar"],html:not([lang="ns]) a[href="/ar"]{background-position:-257px -5px}
+html:not([lang="ns"]) a[href="#no"],html:not([lang="ns]) a[href="/no"]{background-position:-144px -397px}
+html:not([lang="ns"]) a[href="#sct"],html:not([lang="ns]) a[href="/sct"]{background-position:-144px -397px}
+html:not([lang="ns"]) a[href="#en"], html:not([lang="ns"]) a[href="/en"] {
+    background-position: -32px -145px;
+}
+
+/*[8.6] Thumbnails for Session Threads */
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="australian"]{background-position:0px 0px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="malaysia"],
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="sepang"]{background-position:-60px 0px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="bahrain"]{background-position:-120px 0px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="chinese"],
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="shanghai"]{background-position:-180px 0px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="spanish"]{background-position:-240px 0px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="monaco"]{background-position:0px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="canadian"]{background-position:-60px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="canada"]{background-position:-60px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="austrian"]{background-position:-120px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="british"]{background-position:-180px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="german"]{background-position:-240px -60px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="hungarian"]{background-position:0px -120px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="belgian"]{background-position:-60px -120px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="italian"]{background-position:-120px -120px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="singapore"]{background-position:-180px -120px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="japanese"]{background-position:-240px -120px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="russian"]{background-position:0px -180px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="sochi"]{background-position:0px -180px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="united_states"]{background-position:-60px -180px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="brazilian"]{background-position:-120px -180px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="abu_dhabi"]{background-position:-180px -180px}
+
+/*[8.1] Cars*/
+.link .entry a[href="#E22"],.wiki a[href="#E22"],
+.link .entry a[href="#F14T"],.wiki a[href="#F14T"],
+.link .entry a[href="#RB10"],.wiki a[href="#RB10"],
+.link .entry a[href="#VJM07"],.wiki a[href="#VJM07"],
+.link .entry a[href="#MR03"],.wiki a[href="#MR03"],
+.link .entry a[href="#MP4-29"],.wiki a[href="#MP4-29"],
+.link .entry a[href="#F1W05"],.wiki a[href="#F1W05"],
+.link .entry a[href="#C33"],.wiki a[href="#C33"],
+.link .entry a[href="#STR9"],.wiki a[href="#STR9"],
+.link .entry a[href="#FW36"],.wiki a[href="#FW36"],
+.link .entry a[href="#CT05"],.wiki a[href="#CT05"]{width:34px;height:18px;text-align:center;display:block;position:relative;background:black;margin-right:50px;margin-left:0;border-radius:inherit;border-top-right-radius:9px;border-bottom-left-radius:9px;border-top-left-radius:3px;border-bottom-right-radius:3px;color:#fff;font-weight:bold;font-style:italic;margin-right:75px}
+.link .entry a[href="#E22"],
+.wiki a[href="#E22"]{background-color:#464646;color:gold;background-image:linear-gradient(90deg,#464646,#1e1e1e);background-image:-webkit-linear-gradient(90deg,#464646,#1e1e1e);background-image:-moz-linear-gradient(90deg,#464646,#1e1e1e);background-image:-ms-linear-gradient(90deg,#464646,#1e1e1e);background-image:-o-linear-gradient(90deg,#464646,#1e1e1e);border:1px solid #464646}
+.link .entry a[href="#F14T"],
+.wiki a[href="#F14T"]{background-color:#e31e27;background-image:linear-gradient(90deg,#e31e27,#c51a22);background-image:-webkit-linear-gradient(90deg,#e31e27,#c51a22);background-image:-moz-linear-gradient(90deg,#e31e27,#c51a22);background-image:-ms-linear-gradient(90deg,#e31e27,#c51a22);background-image:-o-linear-gradient(90deg,#e31e27,#c51a22);color:white;border:1px solid #e31e27}
+.link .entry a[href="#RB10"],
+.wiki a[href="#RB10"]{background-color:#082d70;background-image:linear-gradient(90deg,#082d70,#4f2682);background-image:-webkit-linear-gradient(90deg,#082d70,#4f2682);background-image:-moz-linear-gradient(90deg,#082d70,#4f2682);background-image:-ms-linear-gradient(90deg,#082d70,#4f2682);background-image:-o-linear-gradient(90deg,#082d70,#4f2682);border:1px solid #8b34f8;color:white}
+.link .entry a[href="#VJM07"],
+.wiki a[href="#VJM07"]{background-color:#fc5f00;background-image:linear-gradient(90deg,#fc5f00,#e25500);background-image:-webkit-linear-gradient(90deg,#fc5f00,#e25500);background-image:-moz-linear-gradient(90deg,#fc5f00,#e25500);background-image:-ms-linear-gradient(90deg,#fc5f00,#e25500);background-image:-o-linear-gradient(90deg,#fc5f00,#e25500);color:green;border:1px solid #fc5f00}
+.link .entry a[href="#MR03"],
+.wiki a[href="#MR03"]{background-color:#f83d38;background-image:linear-gradient(90deg,#f83d38,#d83531);background-image:-webkit-linear-gradient(90deg,#f83d38,#d83531);background-image:-moz-linear-gradient(90deg,#f83d38,#d83531);background-image:-ms-linear-gradient(90deg,#f83d38,#d83531);background-image:-o-linear-gradient(90deg,#f83d38,#d83531);border:1px solid #f83d38;color:black}
+.link .entry a[href="#MP4-29"],
+.wiki a[href="#MP4-29"]{background-image:linear-gradient(90deg,silver,#f7f7f7);background-image:-webkit-linear-gradient(90deg,silver,#f7f7f7);background-image:-moz-linear-gradient(90deg,silver,#f7f7f7);background-image:-ms-linear-gradient(90deg,silver,#f7f7f7);background-image:-o-linear-gradient(90deg,silver,#f7f7f7);background-color:silver;color:red;border:1px solid silver}
+.link .entry a[href="#F1W05"],
+.wiki a[href="#F1W05"]{background-image:linear-gradient(90deg,silver,#f7f7f7);background-image:-webkit-linear-gradient(90deg,silver,#f7f7f7);background-image:-moz-linear-gradient(90deg,silver,#f7f7f7);background-image:-ms-linear-gradient(90deg,silver,#f7f7f7);background-image:-o-linear-gradient(90deg,silver,#f7f7f7);background-color:silver;color:teal;border:1px solid silver}
+.link .entry a[href="#C33"],
+.wiki a[href="#C33"]{background-color:#424242;background-image:linear-gradient(90deg,#424242,#2e2e2e);background-image:-webkit-linear-gradient(90deg,#424242,#2e2e2e);background-image:-moz-linear-gradient(90deg,#424242,#2e2e2e);background-image:-ms-linear-gradient(90deg,#424242,#2e2e2e);background-image:-o-linear-gradient(90deg,#424242,#2e2e2e);color:white;border:1px solid #424242}
+.link .entry a[href="#STR9"],
+.wiki a[href="#STR9"]{background-image:linear-gradient(90deg,navy,#00224b);background-image:-webkit-linear-gradient(90deg,navy,#00224b);background-image:-moz-linear-gradient(90deg,navy,#00224b);background-image:-ms-linear-gradient(90deg,navy,#00224b);background-image:-o-linear-gradient(90deg,navy,#00224b);background-color:navy;color:red;border:1px solid navy}
+.link .entry a[href="#FW36"],
+.wiki a[href="#FW36"]{background-color:#003b84;background-image:linear-gradient(90deg,#003b84,#003372);background-image:-webkit-linear-gradient(90deg,#003b84,#003372);background-image:-moz-linear-gradient(90deg,#003b84,#003372);background-image:-ms-linear-gradient(90deg,#003b84,#003372);background-image:-o-linear-gradient(90deg,#003b84,#003372);color:white;border:1px solid #003b84}
+.link .entry a[href="#CT05"],
+.wiki a[href="#CT05"]{background-image:linear-gradient(90deg,#153726,#2a5a00);background-image:-webkit-linear-gradient(90deg,#153726,#2a5a00);background-image:-moz-linear-gradient(90deg,#153726,#2a5a00);background-image:-ms-linear-gradient(90deg,#153726,#2a5a00);background-image:-o-linear-gradient(90deg,#153726,#2a5a00);background-color:#153726;color:#92c700;border:1px solid #153726}
+.link .entry a[href="#E22"]:after,
+.link .entry a[href="#F14T"]:after,
+.link .entry a[href="#RB10"]:after,
+.link .entry a[href="#VJM07"]:after,
+.link .entry a[href="#MR03"]:after,
+.link .entry a[href="#MP4-29"]:after,
+.link .entry a[href="#F1W05"]:after,
+.link .entry a[href="#C33"]:after,
+.link .entry a[href="#STR9"]:after,
+.link .entry a[href="#FW36"]:after,
+.link .entry a[href="#CT05"]:after,
+.wiki a[href="#E22"]:after,
+.wiki a[href="#F14T"]:after,
+.wiki a[href="#RB10"]:after,
+.wiki a[href="#VJM07"]:after,
+.wiki a[href="#MR03"]:after,
+.wiki a[href="#MP4-29"]:after,
+.wiki a[href="#F1W05"]:after,
+.wiki a[href="#C33"]:after,
+.wiki a[href="#STR9"]:after,
+.wiki a[href="#FW36"]:after,
+.wiki a[href="#CT05"]:after{width:65px;height:22px;display:inline-block;background-image:url(%%cars-2014%%);background-repeat:no-repeat;text-indent:-99999pt;content:"";position:absolute;left:48px;top:0px}
+
+.link .entry a[href="#E22"]:after,.wiki a[href="#E22"]:after{background-position:0 -181px}
+.link .entry a[href="#F14T"]:after,.wiki a[href="#F14T"]:after{background-position:0 -39px}
+.link .entry a[href="#RB10"]:after,.wiki a[href="#RB10"]:after{background-position:0 -161px}
+.link .entry a[href="#VJM07"]:after,.wiki a[href="#VJM07"]:after{background-position:0 -18px}
+.link .entry a[href="#MR03"]:after,.wiki a[href="#MR03"]:after{background-position:0 -100px}
+.link .entry a[href="#MP4-29"]:after,.wiki a[href="#MP4-29"]:after{background-position:0 -59px}
+.link .entry a[href="#F1W05"]:after,.wiki a[href="#F1W05"]:after{background-position:0 -120px}
+.link .entry a[href="#C33"]:after,.wiki a[href="#C33"]:after{background-position:0 -140px}
+.link .entry a[href="#STR9"]:after,.wiki a[href="#STR9"]:after{background-position:0 -79px}
+.link .entry a[href="#FW36"]:after,.wiki a[href="#FW36"]:after{background-position:0 2px}
+.link .entry a[href="#CT05"]:after,.wiki a[href="#CT05"]:after{background-position:0 -201px}
+
+html:not([lang="ns"]) #srList{z-index:50001!important}
+html:not([lang="ns"]) #RESShortcutsEditContainer{background:transparent!important}
+html:not([lang="ns"]) #RESShortcutsSort,
+html:not([lang="ns"]) #RESShortcutsRight,
+html:not([lang="ns"]) #RESShortcutsLeft,
+html:not([lang="ns"]) #RESShortcutsAdd,
+html:not([lang="ns"]) #RESShortcutsTrash{background:transparent!important;color:#f1f1f1!important;width:12px!important;font-size:11px!important}
+html:not([lang="ns"]) #RESShortcutsSort{font-size:12px!important}
+html:not([lang="ns"]) #RESShortcuts{color:#fff}
+html:not([lang="ns"]) div.res-navTop a{color:#000}
+
+/*for editors*/
+ul#image-preview-list{padding:20px;font-size:larger;background:#fff!important;display:inline-block;height:100%;border-top:1px solid #ccc;margin-top:20px}
+.stylesheet-customize-container{width:100%}
+#subreddit_stylesheet{display:block;overflow:hidden}
+.sheets{margin:0}
+#stylesheet_contents{padding:5px;background-color:#222;color:#ace;border:2px solid #222;height:500px;font-size:13px;line-height:1.4}
+body.res-nightmode #stylesheet_contents{background-color:#111;border-color:#111;height:500px;font-size:13px;line-height:1.4}
+
+.side blockquote blockquote ul a{color:#4f4f4f}
+.side blockquote blockquote ul a:hover{color:#000}
+
+
+/*extra text*/
+html:not([lang="ns"]) .side a[href*="https://kiwiirc.com/client/irc.snoonet.org/f1/"]:after{content:"#f1 on irc.snoonet.org";display:block;width:100%;font-size:13px;height:12px;line-height:11px;margin-top:0;margin-bottom:5px}
+html:not([lang="ns"]) .side a[href*="http://spotterguides.com"]:after{content:"By Andy Blackmore";display:block;width:100%;font-size:13px;height:12px;line-height:11px;margin-top:0;margin-bottom:5px}
+
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3) table thead{display:none}
+
+/*circuit*/
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3) blockquote p,
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4) blockquote p:first-child{font-size:13px;background:#222;color:#fff;padding:8px;margin:0}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3) table tr td:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2) table tr td:nth-of-type(1){font-weight:bold;vertical-align:top;}
+
+/*map*/
+html:not([lang="ns"]) .titlebox .md a[href="#map"]{width:450px;height:250px;display:block;background:url(%%circuit-map%%) no-repeat 0 0 scroll transparent;background-size:cover;text-indent:-9999pt;pointer-events:none}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4) blockquote p:nth-of-type(2) {
+margin: 7px 1px 0;
+padding: 0;
+}
+
+/*[7.0] Wiki Styles*/
+html:not([lang=ns]) .wiki-page .wiki-page-content{position:relative;margin:0}body.wiki-page-index .wiki-page-content .md.wiki blockquote{width:100%;border:0 none;margin:0;padding:0}.wiki-page .wiki-page-content .md.wiki>.toc>ul{background:#fff}body.wiki-page .wiki-page-content .md.wiki h3{font-size:1.6em;margin-top:30px;border-bottom:1px solid #ededed;padding-bottom:5px}.wiki-page .wiki-page-content .md.wiki h4{font-size:1.4em;color:#555;margin-top:25px;margin-bottom:0}body.wiki-page .wiki-page-content .md.wiki hr{background:#e5e5e5;border:0;height:1px;margin:30px 40px}.wiki-page-index .wiki-page-content .md.wiki h5{margin-top:25px}body.wiki-page .md.wiki blockquote table{width:100%;margin:0}body.wiki-page table td,body.wiki-page table th{padding:4px 8px}body.wiki-page table th,table th{background:-webkit-linear-gradient(bottom,#2f2f2f,#525252);background:-moz-linear-gradient(bottom,#2f2f2f,#525252);background:-ms-linear-gradient(bottom,#2f2f2f,#525252);background:-o-linear-gradient(bottom,#2f2f2f,#525252);border-width:medium 1px;border-style:none solid solid;border-color:#525252;color:#fff;font-weight:700;text-shadow:0 1px 0 #2f2f2f}
+
+/*Calendar*/
+body.wiki-page-index .md.wiki blockquote:first-of-type table{margin-top:15px}body.wiki-page-index .md.wiki blockquote:first-of-type table tr th:nth-of-type(1){width:48px;text-align:center}body.wiki-page-index .md.wiki blockquote:first-of-type table tr td:nth-of-type(4),body.wiki-page-index .md.wiki blockquote:first-of-type table tr td:nth-of-type(5),body.wiki-page-index .md.wiki blockquote:first-of-type table tr th:nth-of-type(4),body.wiki-page-index .md.wiki blockquote:first-of-type table tr th:nth-of-type(5){text-align:center}body.wiki-page-index .md.wiki blockquote:first-of-type table tr:nth-of-type(12) td:nth-of-type(2){background:-webkit-linear-gradient(bottom,#2f2f2f,#525252);background:-moz-linear-gradient(bottom,#2f2f2f,#525252);background:-ms-linear-gradient(bottom,#2f2f2f,#525252);background:-o-linear-gradient(bottom,#2f2f2f,#525252);background-color:#525252;display:table-caption;position:absolute;width:100%;padding:4px 0;border:none;left:0;text-align:center;line-height:18px;color:#fff}
+
+/*TV Schedule*/
+
+/*[9.1] Never Ending Reddit*/
+html:not([lang=ns]) div#endOfReddit{width:100%;text-align:center;font-size:10pt;font-weight:700;text-shadow:0 1px 0 #f1f1f1;color:#818181;padding:5px 0}html:not([lang=ns]) .sitetable div.nav-buttons{padding:7px 0 10px;background:0 0;border-bottom:1px solid #ccc;width:100%;margin-bottom:5px;text-indent:10px}html:not([lang=ns]) .NERPageMarker{color:#818181!important;font-size:10pt!important;background-color:transparent!important;border:0 none!important;border-radius:0!important;padding:3px 0;font-weight:700!important;text-shadow:0 1px 0 #f1f1f1}html:not([lang=ns]) #progressIndicator{width:80%;min-height:20px;margin:0 auto;font-size:10pt!important;border:0 none!important;border-radius:0!important;padding:5px!important;text-align:center;background-color:transparent!important;cursor:pointer;color:#818181}.next-suggestions a,html:not([lang=ns]) .nextprev a{display:inline-block;padding:5px 14px 5px 0;background-color:#fff;border:1px solid #ddd;border-radius:3px;color:#000}.next-suggestions a:hover,html:not([lang=ns]) .nextprev a:hover{background:#fff;border:1px solid #ccc;color:#000;box-shadow:1px 1px 1px #ccc}.next-suggestions a,html:not([lang=ns]) #NERFail .nextprev a{padding:5px 10px;text-align:center}html:not([lang=ns]) #NERFail{width:auto;margin:20px 0;padding:15px 0;display:block;border-radius:0;border:0 none;border-top:1px dashed #ccc}html:not([lang=ns]) #NERFail a[href="/r/random"]{display:none}
+html:not([lang=ns]) #progressIndicator{font-weight:700;text-shadow:0 1px 0 #fff}html:not([lang=ns]) #progressIndicator>img{content:"";height:24px;width:21px;padding-left:21px;background:url(%%sprite%%);margin:0 auto;background-position:-89px -60px;overflow:hidden;display:none}html:not([lang=ns]) #progressIndicator h2{color:#000}#NERContent{padding-bottom:10px;padding-right:0;width:50%;left:0 !important;right:0;margin:0 auto}.RESThrobber{margin-right:5px;margin-bottom:-10px;margin-top:10px}.RESThrobber:before, .RESThrobber:after{display:none}#NERContent .RESThrobber{margin:0 auto}#NERContent .RESThrobber{margin:10px auto 0;left:0;right:0;display:block}
+.RESThrobber{background-color:transparent;border-right:4px solid red;border-left:4px solid black;border-top:4px solid black;border-bottom:4px solid black;box-shadow:none;height:20px;width:20px;-webkit-transition:all .75s ease 0s;transition:all .75s ease 0s;border-radius:100%;-webkit-animation:standard .75s infinite linear;animation:standard .75s infinite linear;-webkit-transform-origin:center;-ms-transform-origin:center;transform-origin:center}
+
+@-webkit-keyframes standard{
+  from{
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+ }
+  to{
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+ }
+}
+@keyframes standard{
+  from{
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+ }
+  to{
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+ }
+}
+
+/*alien car*/
+
+html:not([lang="ns"]) .side .usertext-body:before{display:block;content:'';height:300px;margin-bottom:-12px;background:url(%%tribute%%) no-repeat center 8px scroll #EDEDED; border-bottom:8px solid #ededed;border-top:5px solid #ededed;}
+html:not([lang="ns"]) .res-nightmode .side .usertext-body:before{display:none;}
+
+
+.formtabs-content {padding-top: 225px;position: relative;}
+.formtabs-content .md > ul:nth-of-type(1) {
+margin: 0;
+border: 0;
+position: absolute;
+top: 0;
+left: 0px;
+padding: 10px;
+background: rgb(237,237,237);
+right: 0px;
+height: 190px;
+overflow-y: scroll;
+font-size:10pt;
+}
+.formtabs-content .md > ul:nth-of-type(1)>ul { list-style-type:none;padding:0;margin:0}
+.formtabs-content .md > ul:nth-of-type(1)>ul>li {float: left;display: inline-block;font-weight: bold;font-size:14px;width:100%}
+.formtabs-content .md > ul:nth-of-type(1)>ul>li li {font-weight:normal}
+.formtabs-content .md > ul:nth-of-type(1)>ul>li>ul {
+padding: 5px 0 10px 5px;
+line-height: 1.5em;
+font-size: 13px;
+margin-top: 0;
+margin: 0 20px;
+}
+.formtabs-content .md > ul:nth-of-type(1)>ul>li>ul ul {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 11px;
+line-height: 16px;
+list-style-type: none;
+margin: 0;
+color: #6B6B6B;
+}
+.formtabs-content .md  > ul:nth-of-type(1)>ul>li>ul ul li:before,
+.formtabs-content .md  > ul:nth-of-type(1)>ul>li>ul ul li:before{ content:"** "; }
+
+html:not([lang="ns"]) .submit-page .titlebox .md>ul:nth-of-type(1) li:nth-of-type(3):before {
+content: "Have an easy question? Ask the community anything in our Wednesday at Bernies thread!";
+display: block;
+position: absolute;
+top: 32px;
+left: 0px;
+width: 310px;
+text-align: left;
+padding: 7px 10px 10px 10px;
+font-weight: normal;
+background: #333;
+z-index:100;
+}
+
+/* new - sort */
+html:not([lang="ns"]) .titlebox .md>ul>li blockquote table {
+width: 100%;
+padding: 0;
+background: transparent;
+margin: 0;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul>li blockquote table td {
+border: 0;
+padding: 8px 8px;
+border-bottom: 1px solid #e5e5e5;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul>li blockquote table th {
+border:0;
+padding:8px;
+background:#1A1A1A;
+font-weight:normal;
+font-size:13px;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul>li blockquote table tr:nth-child(odd) { background:#fff; }
+
+
+html:not([lang="ns"]) .titlebox .md>ul>li blockquote table tr:nth-child(even) { background:#f7f7f7; }
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3) blockquote table tr:nth-of-type(7) a {display: block;margin-bottom: 6px;}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote h1 {
+background: #222;
+color: #fff;
+padding: 8px;
+font-size: 13px;
+font-weight: normal;
+margin:0
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5)>blockquote p {
+background: #fff;
+margin: 0;
+padding: 8px;
+border-bottom:1px solid #f1f1f1;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5)>blockquote p:last-child {
+background: transparent;
+margin: 7px 0 -8px;
+text-align: center;
+color: #ccc;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5)>blockquote p:last-child a { color:#222; }
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:hover {background: #1A1A1A;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):hover { background:#222; }
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table td,
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table td { border:0; }
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table td:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table td:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table td:nth-of-type(3),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table td:nth-of-type(3),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table th:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table th:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table th:nth-of-type(3),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table th:nth-of-type(3) {text-align:center;}
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table td:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table td:nth-of-type(1) {background: #DBDBDB;color:#6F6F6F;width:25px}
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(6) blockquote table td:nth-of-type(3),
+html:not([lang="ns"]) .titlebox .md>ul>li:nth-of-type(7) blockquote table td:nth-of-type(3) {background: #222;color:#fff;width:35px;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6)>blockquote p {margin: 0;text-align: center;padding: 10px 0 0;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6)>blockquote p a { color:#222; }
+html:not([lang="ns"]) .link .title {line-height: 20px;outline: medium none;font-weight: normal;}
+
+/* nightmode stuff */
+html:not([lang="ns"]) .res-nightmode div#header {background: #202020;border-bottom-color: #000;}
+html:not([lang="ns"]) .res-nightmode div#header-bottom-left .tabmenu li a { color: #ccc; }
+html:not([lang="ns"]) .res-nightmode div#header-bottom-left { border-bottom-color:#454545; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(1) { background:#2A2A2A; border-color:#000 }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(1)>li { border-color:#000; }
+html:not([lang="ns"]) .res-nightmode .titlebox .tagline { background:transparent; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul>li>ul,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li>ul { background-color:transparent; border-color:#494949; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1)>blockquote,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2)>blockquote,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1):hover>h1:after,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2):hover>h1:after { background-color:#272727; border-color:#494949; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(1)>blockquote>blockquote>ul>li,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:nth-of-type(2)>blockquote>blockquote>ul>li { color:#A0A0A0; }
+html:not([lang="ns"]) .res-nightmode .side blockquote blockquote ul a:hover,
+html:not([lang="ns"]) .res-nightmode #userbarToggle,
+html:not([lang="ns"]) .res-nightmode #userbarToggle a,
+html:not([lang="ns"]) .res-nightmode div.res-navTop a { color: #ccc; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li>blockquote { background:#3f3f3f; border-color:#000}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2):hover:before,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3):hover:before,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4):hover:before,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5):hover:before,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6):hover:before,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(7):hover:before { background:#3f3f3f; }
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul>li blockquote table tr:nth-child(odd) {background: #4C4C4C;}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul>li blockquote table tr:nth-child(even) {background: #323232;}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(5)>blockquote p {background: #545454;}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul>li:nth-of-type(6) blockquote table td:nth-of-type(1),
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul>li:nth-of-type(7) blockquote table td:nth-of-type(1) {background: #2A2A2A;}
+html:not([lang="ns"]) .res-nightmode .titlebox .md>ul:nth-of-type(2)>li ul { border-color:transparent; background-color:#6b6b6b; }
+html:not([lang=ns]) .res-nightmode .linklisting .thing,
+html:not([lang="ns"]) .res-nightmode .panestack-title,
+html:not([lang="ns"]) .res-nightmode .commentarea .menuarea,
+html:not([lang="ns"]) .res-nightmode .commentarea>.usertext {background: #222;}
+
+/* flair */
+
+.flair:before {
+content: "";
+height: 16px;
+width: 20px;
+display: inline-block;
+background-image:url(%%flair-block%%);
+background-position:-1px -1px;
+background-repeat: no-repeat;
+vertical-align: middle;
+margin-right: 4px;
+}
+
+/* Begin flair.css copypaste */
+
+.flair-AAADefault:before{background-position:-1px -1px}
+.flair-AdrianSutil:before{background-position:-1px -19px}
+.flair-AguriSuzuki:before{background-position:-1px -37px}
+.flair-AlainProst:before{background-position:-1px -55px}
+.flair-AlanJones:before{background-position:-1px -73px}
+.flair-AlbertoAscari:before{background-position:-1px -91px}
+.flair-AlexZanardi:before{background-position:-1px -109px}
+.flair-AlexanderRossi:before{background-position:-1px -127px}
+.flair-AlexanderWurz:before{background-position:-1px -145px}
+.flair-AlfaRomeoQuadrifoglio:before{background-position:-1px -163px}
+.flair-AlfaRomeo:before{background-position:-1px -181px}
+.flair-AndreLotterer:before{background-position:-1px -199px}
+.flair-AndreaModa:before{background-position:-1px -217px}
+.flair-AngloAmericanRacers:before{background-position:-1px -235px}
+.flair-AntonioFelixdaCosta:before{background-position:-1px -253px}
+.flair-ArrowsOrange:before{background-position:-1px -271px}
+.flair-Arrows:before{background-position:-1px -289px}
+.flair-AyrtonSenna:before{background-position:-1px -307px}
+.flair-BARHonda:before{background-position:-1px -325px}
+.flair-Benetton:before{background-position:-1px -343px}
+.flair-BMWSauber:before{background-position:-1px -361px}
+.flair-BMWWilliams:before{background-position:-1px -379px}
+.flair-Brabham:before{background-position:-1px -397px}
+.flair-BrawnGP:before{background-position:-1px -415px}
+.flair-BRM:before{background-position:-1px -433px}
+.flair-BruceMcLaren:before{background-position:-1px -451px}
+.flair-BrunoSenna:before{background-position:-1px -469px}
+.flair-CarlosPace:before{background-position:-1px -487px}
+.flair-CarlosReutemann:before{background-position:-1px -505px}
+.flair-CarlosSainzJr:before{background-position:-1px -523px}
+.flair-CarmenJorda:before{background-position:-1px -541px}
+.flair-Caterham:before{background-position:-1px -559px}
+.flair-CharlesPic:before{background-position:-1px -577px}
+.flair-ChrisAmon:before{background-position:-1px -595px}
+.flair-ChristijanAlbers:before{background-position:-1px -613px}
+.flair-Coloni:before{background-position:-1px -631px}
+.flair-DamonHill:before{background-position:-1px -649px}
+.flair-DanielRicciardo:before{background-position:-1px -667px}
+.flair-DaniilKvyat:before{background-position:-1px -685px}
+.flair-DavidCoulthard:before{background-position:-1px -703px}
+.flair-DavidPurley:before{background-position:-1px -721px}
+.flair-DeTomaso:before{background-position:-1px -739px}
+.flair-DennyHulme:before{background-position:-1px -757px}
+.flair-EddieCheever:before{background-position:-1px -775px}
+.flair-EddieIrvine:before{background-position:-1px -793px}
+.flair-EliodeAngelis:before{background-position:-1px -811px}
+.flair-EmersonFittipaldi:before{background-position:-1px -829px}
+.flair-EstebanGutierrez:before{background-position:-1px -847px}
+.flair-F1Doc:before{background-position:-1px -865px}
+.flair-FelipeMassa:before{background-position:-1px -883px}
+.flair-FelipeNasr:before{background-position:-1px -901px}
+.flair-FernandoAlonso:before{background-position:-1px -919px}
+.flair-Ferrari:before{background-position:-1px -937px}
+.flair-FittipaldiCopersucar2:before{background-position:-1px -955px}
+.flair-FittipaldiCopersucar:before{background-position:-1px -973px}
+.flair-Footwork:before{background-position:-1px -991px}
+.flair-ForceIndia:before{background-position:-1px -1009px}
+.flair-Forti:before{background-position:-1px -1027px}
+.flair-FrancoisCevert:before{background-position:-1px -1045px}
+.flair-GastonMazzacane:before{background-position:-1px -1063px}
+.flair-GerhardBerger:before{background-position:-1px -1081px}
+.flair-GiancarloFisichella:before{background-position:-1px -1099px}
+.flair-GiedovanderGarde:before{background-position:-1px -1117px}
+.flair-GillesVilleneuve:before{background-position:-1px -1135px}
+.flair-GiuseppeFarina:before{background-position:-1px -1153px}
+.flair-GrahamHill:before{background-position:-1px -1171px}
+.flair-Haas:before{background-position:-1px -1189px}
+.flair-HeikkiKovalainen2:before{background-position:-1px -1207px}
+.flair-HeikkiKovalainen:before{background-position:-1px -1225px}
+.flair-HeinzHaraldFrenzen:before{background-position:-1px -1243px}
+.flair-Hesketh:before{background-position:-1px -1261px}
+.flair-HondaRDCompany:before{background-position:-1px -1279px}
+.flair-HondaRacing:before{background-position:-1px -1297px}
+.flair-HRT:before{background-position:-1px -1315px}
+.flair-JackBrabham:before{background-position:-1px -1333px}
+.flair-JackieStewart:before{background-position:-1px -1351px}
+.flair-JackyIckx:before{background-position:-1px -1369px}
+.flair-JacquesVilleneuve:before{background-position:-1px -1387px}
+.flair-Jaguar:before{background-position:-1px -1405px}
+.flair-JamesHunt:before{background-position:-1px -1423px}
+.flair-JamieAlguersuari:before{background-position:-1px -1441px}
+.flair-JarnoTrulli:before{background-position:-1px -1459px}
+.flair-JeanAlesi:before{background-position:-1px -1477px}
+.flair-JeanEricVergne:before{background-position:-1px -1495px}
+.flair-JensonButton2009:before{background-position:-1px -1513px}
+.flair-JensonButtonPink:before{background-position:-1px -1531px}
+.flair-JensonButton:before{background-position:-1px -1549px}
+.flair-JeromedAmbrosio:before{background-position:-1px -1567px}
+.flair-JimClark:before{background-position:-1px -1585px}
+.flair-JochenRindt:before{background-position:-1px -1603px}
+.flair-JodyScheckter:before{background-position:-1px -1621px}
+.flair-JohnSurtees:before{background-position:-1px -1639px}
+.flair-JohnWatson:before{background-position:-1px -1657px}
+.flair-JordanGP:before{background-position:-1px -1675px}
+.flair-Jordan:before{background-position:-1px -1693px}
+.flair-JosVerstappen:before{background-position:-1px -1711px}
+.flair-JuanManuelFangio:before{background-position:-1px -1729px}
+.flair-JuanPabloMontoya:before{background-position:-1px -1747px}
+.flair-JulesBianchi:before{background-position:-1px -1765px}
+.flair-KamuiKobayashi:before{background-position:-1px -1783px}
+.flair-KarunChandok:before{background-position:-1px -1801px}
+.flair-KekeRosberg:before{background-position:-1px -1819px}
+.flair-KevinMagnussen:before{background-position:-1px -1837px}
+.flair-KimiRaikkonen:before{background-position:-1px -1855px}
+.flair-Larrousse:before{background-position:-1px -1873px}
+.flair-LewisHamiltonYellow:before{background-position:-1px -1891px}
+.flair-LewisHamilton:before{background-position:-1px -1909px}
+.flair-Life:before{background-position:-1px -1927px}
+.flair-Ligier:before{background-position:-1px -1945px}
+.flair-Lotus:before{background-position:-1px -1963px}
+.flair-LucaBadoer:before{background-position:-1px -1981px}
+.flair-LucianoBurti:before{background-position:-1px -1999px}
+.flair-LuizRazia:before{background-position:-1px -2017px}
+.flair-Manor:before{background-position:-1px -2035px}
+.flair-March:before{background-position:-1px -2053px}
+.flair-MarcusEricsson:before{background-position:-1px -2071px}
+.flair-MarioAndretti:before{background-position:-1px -2089px}
+.flair-MarkWebber:before{background-position:-1px -2107px}
+.flair-MartinBrundle:before{background-position:-1px -2125px}
+.flair-Marussia:before{background-position:-1px -2143px}
+.flair-Matra:before{background-position:-1px -2161px}
+.flair-MaxChilton:before{background-position:-1px -2179px}
+.flair-MaxVerstappen:before{background-position:-1px -2197px}
+.flair-McLaren:before{background-position:-1px -2215px}
+.flair-Mercedes:before{background-position:-1px -2233px}
+.flair-MichaelAndretti:before{background-position:-1px -2251px}
+.flair-MichaelSchumacher1990s:before{background-position:-1px -2269px}
+.flair-MichaelSchumacher:before{background-position:-1px -2287px}
+.flair-Midland:before{background-position:-1px -2305px}
+.flair-MikaHakkinen:before{background-position:-1px -2323px}
+.flair-MikeHawthorn:before{background-position:-1px -2341px}
+.flair-Minardi:before{background-position:-1px -2359px}
+.flair-NarainKarthikeyan:before{background-position:-1px -2377px}
+.flair-NelsonPiquet:before{background-position:-1px -2395px}
+.flair-NickHeidfeld:before{background-position:-1px -2413px}
+.flair-NicoHulkenberg:before{background-position:-1px -2431px}
+.flair-NicoRosberg:before{background-position:-1px -2449px}
+.flair-NigelMansell:before{background-position:-1px -2467px}
+.flair-NikiLauda:before{background-position:-1px -2485px}
+.flair-PastorMaldonado:before{background-position:-1px -2503px}
+.flair-PatrickDepailler:before{background-position:-1px -2521px}
+.flair-PauldiResta:before{background-position:-1px -2539px}
+.flair-PedrodelaRosa:before{background-position:-1px -2557px}
+.flair-PhilHill:before{background-position:-1px -2575px}
+.flair-RalfSchumacher:before{background-position:-1px -2593px}
+.flair-RedBull:before{background-position:-1px -2611px}
+.flair-Renault:before{background-position:-1px -2629px}
+.flair-RepcoBrabham:before{background-position:-1px -2647px}
+.flair-RiccardoPatrese:before{background-position:-1px -2665px}
+.flair-RobertKubica:before{background-position:-1px -2683px}
+.flair-RobertVisoiu:before{background-position:-1px -2701px}
+.flair-RomainGrosjean:before{background-position:-1px -2719px}
+.flair-RonniePeterson:before{background-position:-1px -2737px}
+.flair-RubensBarrichello:before{background-position:-1px -2755px}
+.flair-SafteyCar:before{background-position:-1px -2773px}
+.flair-Sauber:before{background-position:-1px -2791px}
+.flair-ScottSpeed:before{background-position:-1px -2809px}
+.flair-SebastianVettel2014:before{background-position:-1px -2827px}
+.flair-SebastianVettel:before{background-position:-1px -2845px}
+.flair-SergioPerez:before{background-position:-1px -2863px}
+.flair-StefanBellof:before{background-position:-1px -2881px}
+.flair-StirlingMoss:before{background-position:-1px -2899px}
+.flair-SuperAguri:before{background-position:-1px -2917px}
+.flair-SusieWolff:before{background-position:-1px -2935px}
+.flair-TakiInoue:before{background-position:-1px -2953px}
+.flair-TakumaSato:before{background-position:-1px -2971px}
+.flair-TeamLotus:before{background-position:-1px -2989px}
+.flair-TeoFabi:before{background-position:-1px -3007px}
+.flair-ThierryBoutsen:before{background-position:-1px -3025px}
+.flair-TimoGlock:before{background-position:-1px -3043px}
+.flair-Toleman:before{background-position:-1px -3061px}
+.flair-TomPryce:before{background-position:-1px -3079px}
+.flair-ToroRosso:before{background-position:-1px -3097px}
+.flair-Toyota:before{background-position:-1px -3115px}
+.flair-Tyrrell:before{background-position:-1px -3133px}
+.flair-USF1:before{background-position:-1px -3151px}
+.flair-ValtteriBottas:before{background-position:-1px -3169px}
+.flair-VirginRacing:before{background-position:-1px -3187px}
+.flair-VitalyPetrov:before{background-position:-1px -3205px}
+.flair-WalterWolf:before{background-position:-1px -3223px}
+.flair-Williams:before{background-position:-1px -3241px}
+.flair-YujiIde:before{background-position:-1px -3259px}
+
+/* End flair.css copypaste */
+
+.flair-award:before,a[href="/award"]:before{background:url(%%award-flair%%) no-repeat 0 0 transparent;content:"";display:inline-block;width:20px;height:18px;top:6px;left:-2px}.flair-award:hover{background-color:#FFEFBD;border-color:#BA8600}
+
+
+html:not([lang="ns"]) .footer-parent .footer:before {
+width: 170px;
+height: 150px;
+display: inline-block;
+background: url(%%sprite%%) no-repeat 0 -200px scroll transparent;
+content: "";
+position: absolute;
+left: -200px;
+top: 0;
+}
+
+html:not([lang="ns"]) .footer {
+color: gray;
+padding: 5px;
+margin: 15px;
+border: 1px solid #F0F0F0;
+display: inline-block;
+position: relative;
+margin-bottom: 35px;
+}
+/*
+
+for badges, top right
+
+html:not([lang="ns"]) div#header:after {
+content: "";
+background-image: url(%%jules-badge%%);
+height: 38px;
+width: 290px;
+display: block;
+top: 33px;
+position: absolute;
+right: 10px;
+}
+*/
+
+/* get rid of markdown fontsize update*/
+.md .-text, .md p, .md pre>code, .md th, .md td, .md li { font-size:10pt; }
+
+
+.arrow.down:hover:before {
+background: #AB0303;
+content: "Please do not downvote based on team or driver fandom. Report inappropriate content.";
+display: block;
+position: fixed;
+left: 0;
+padding: 10px;
+bottom: 0;
+right: 0;
+text-align: center;
+z-index: 10002;
+color: #fff;
+text-transform: uppercase;
+}
+
+/* flair psa */
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(3) {
+  color: red;
+  position: absolute;
+  left: 10px;
+  top: 164px;
+  font-size: 11px;
+  text-align: left;
+}
+
+/* fixes for res */
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(1)>h1, 
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(2)>h1 { position:fixed; top:20px; }
+
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(1):before, 
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(2):before { position:fixed; top:42px; }
+
+html:not([lang="ns"]) body.pinHeader-sub #header-bottom-left,
+html:not([lang="ns"]) body.pinHeader-subanduser #header-bottom-left{ margin-top: 17px;}
+
+html:not([lang="ns"]) body.pinHeader-userbar div#header-bottom-right,
+html:not([lang="ns"]) body.pinHeader-subanduser div#header-bottom-right{
+  background-color: #fff!important;
+  opacity: 1!important;
+  padding: 2px 5px;
+}
+
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(1)>blockquote, 
+html:not([lang="ns"]) body.pinHeader-header .titlebox .md>blockquote:nth-of-type(2)>blockquote {
+  position: fixed;
+  top: 81px;
+}
+
+
+html:not([lang="ns"]) a.message-count {
+  display: inline-block;
+  line-height: 16px;
+  top: -1px;
+  position: relative;
+  width: 10px;
+  min-height: 10px;
+  text-align: center;
+  padding-top: 1px;
+  color:#fff;
+  font-weight:bold;
+}
+
+.comments-page li.report-button a {color: red !important}
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a {display: inline-block;width: 148px;font-size: 12px;text-align: center;padding: 5px 0;border-right: 1px solid #ccc;color: #7B7B7B;}
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(3) {border-right: 0 none;}
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:hover {background-color: #EFEFEF;color: #000;}
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) {background-color: #E0E0E0;border: 0 none;margin: 0;padding: 0;position: absolute;top: 216px;width: 298px;right: 10px;border: 1px solid #ccc;}
+html:lang(nm) .link.linkflair-media, 
+html:lang(nm) .link.linkflair-video,
+.link.linkflair-media .linkflairlabel,
+html:lang(nm) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(1),
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(2) { display:none; }
+
+html:lang(nm) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(2) { display:inline-block; }
+
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4) {
+    background-color: rgba(0, 0, 0, 0.66);
+    color: #fff;
+    position: absolute;
+    top: 432px;
+    width: 276px;
+    right: 15px;
+    border: 0 none;
+    font-size: 10px;
+    z-index: 10001;
+    padding: 6px 6px;
+}
+
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4) a {
+    color: orangered;
+}
+
+div#thing_t3_3tl34e .entry table {
+    width: 100%;
+}
+
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="race_of_champions"] {
+    background-image:url(%%roc-logo%%);
+    background-position: 0;
+    background-size: cover;
+}
+
