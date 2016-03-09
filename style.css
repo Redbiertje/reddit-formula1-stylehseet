@@ -1,6 +1,6 @@
 /* prevent top margin test */
 
-.magic { background:gold; }
+.magic { background:blue; }
 
 /*reset*/
 html:not([lang="ns"]) div#header,html:not([lang="ns"]) div#sr-header-area,html:not([lang="ns"]) div#header-bottom-right{border:0 none;background:none;border-radius:0}
