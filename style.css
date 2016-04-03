@@ -1354,3 +1354,229 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before {
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
 }
+
+/* new race thread template */
+
+div.linkflair.linkflair-race .md table:nth-of-type(1), 
+div.linkflair.linkflair-race .md table:nth-of-type(2) {
+    margin: 0 auto 1.5em;
+    width: 60%;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) {
+	margin: 0 auto 1.5em;
+	width:100%;
+}
+
+div.linkflair.linkflair-race .md h3 {
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: -1px;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(2) {
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.linkflair.linkflair-race .md p:nth-of-type(1) {
+    text-align: center !important;
+    background: #f1f1f1;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div.linkflair.linkflair-race .md p:nth-of-type(1) a {
+    color: #5A5A5A;
+}
+
+div.linkflair.linkflair-race .md p:nth-of-type(2) {
+    height: 1px;
+    background: #E0E0E0;
+    margin: 2.5em;
+}
+
+div.linkflair.linkflair-race .md p:nth-of-type(1) a {
+    color: #5A5A5A;
+}
+
+
+/* grid */
+
+div.linkflair.linkflair-race .md h4:nth-of-type(2) {
+    margin-left: 55px;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr th {
+    padding: .5em;
+    border: 0;
+    border-right: 1px solid #484848;
+    text-align:center;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr th:nth-of-type(1) {
+    background: #fff;
+    text-shadow: none;
+    color: #000;
+    border: 0;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td {
+    border: 0;
+    padding: 0;
+    border-right: 1px solid rgba(204,204,204,0.09);
+    border-bottom: 1px solid rgba(0,0,0,0.02);
+    height: 39px;
+    vertical-align: middle;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td:nth-of-type(3) {
+    border-right: 0 none;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td:nth-of-type(1) {
+    background: #fff;
+    border-bottom: 1px dotted #F7F7F7;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    width: 45px;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_merc"],
+div.linkflair.linkflair-race .md a[href="#rt_mcl"],
+div.linkflair.linkflair-race .md a[href="#rt_man"],
+div.linkflair.linkflair-race .md a[href="#rt_ren"],
+div.linkflair.linkflair-race .md a[href="#rt_tor"],
+div.linkflair.linkflair-race .md a[href="#rt_rb"],
+div.linkflair.linkflair-race .md a[href="#rt_haas"],
+div.linkflair.linkflair-race .md a[href="#rt_sau"],
+div.linkflair.linkflair-race .md a[href="#rt_fer"],
+div.linkflair.linkflair-race .md a[href="#rt_fi"],
+div.linkflair.linkflair-race .md a[href="#rt_wil"]{
+    background-image: url(%%flag-med-sprite%%);
+    content: "";
+    height: 39px;
+    width: 50px;
+    display: block;
+    text-indent: -99pt;
+    overflow: hidden;
+    float: right;
+    position: relative;
+    margin-top:-1px;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_merc"] {
+    background-position: -250px -310px;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_mcl"]{
+    background-position: -201px -310px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_man"]{
+    background-position: -150px -310px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_ren"]{
+    background-position: -50px -349px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_tor"]{
+    background-position: -150px -349px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_rb"]{
+    background-position: -300px -349px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_haas"]{
+    background-position: -100px -310px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_sau"]{
+    background-position: -100px -349px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_fer"]{
+    background-position: 0 -310px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_fi"]{
+    background-position: -50px -310px;
+}
+div.linkflair.linkflair-race .md a[href="#rt_wil"]{
+    background-position: -500px -349px;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_merc"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_mcl"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_ren"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_tor"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_rb"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_haas"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_sau"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_fer"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_fi"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_wil"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_man"]:after {
+    display: block;
+    height: 11px;
+    width: 16px;
+    background-image: url(%%flags%%);
+    position: absolute;
+    bottom: 0;
+    content: "";
+    left: 0;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_merc"]:after { background-position:-284px -117px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_fi"]:after { background-position: -32px -257px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_mcl"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_wil"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_man"]:after { background-position: -284px -173px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_tor"]:after,
+div.linkflair.linkflair-race .md a[href="#rt_fer"]:after { background-position:-172px -257px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_rb"]:after { background-position: -4px -33px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_haas"]:after { background-position: -4px -565px; }
+
+div.linkflair.linkflair-race .md a[href="#rt_sau"]:after {
+    background-position: -198px -89px;
+    margin-left: -2px;
+}
+
+div.linkflair.linkflair-race .md a[href="#rt_ren"]:after { background-position: -228px -173px; }
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong {
+    float: left;
+    display: block;
+    height: 38px;
+    line-height: 40px;
+    margin: 0 10px;
+    font-weight: normal;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(1) {
+    font-weight: bold;
+    background: #f1f1f1;
+    width: 39px;
+    text-align: center;
+    margin-left: 0;
+    margin: 1px 1px 0 0;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3) {
+    color: #9E9E9E;
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3):before {
+    content:"Q: ";
+}
+
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr:nth-of-type(odd) td:nth-of-type(3),
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr:nth-of-type(even) td:nth-of-type(2) {
+    background: repeating-linear-gradient(-55deg,#fff,#fff 4px,#f1f1f1 4px,#f1f1f1 8px);
+}
+div.linkflair.linkflair-race .md table:nth-of-type(3) a {
+    cursor: pointer;
+    pointer-events: none;
+}
