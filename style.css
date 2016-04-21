@@ -1570,29 +1570,24 @@ div.linkflair.linkflair-race .md table:nth-of-type(3) a {
     pointer-events: none;
 }
 
-/* just trollin 
-
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type {
-	position:relative;
-	height:200px;
-	width:300px;
-	background-image:none;
+/* just trollin */
+html:not([lang="ns"]) .listing-page .titlebox .md:hover li:nth-of-type(1):before {
+     background-position: -20px 0;
+    background-size: 320px;
+	
 }
-
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before {
 
-    content: "";
+content: "";
     background: url(%%race-pic%%);
-    position: absolute;
-    top: -160px;
-    right: 0;
-    left: -20px;
-    bottom: 0;
+    width: 300px;
+    height: 200px;
     background-size: 560px;
-    -webkit-transition:all 2s ease-in;  
-    -moz-transition:all 2s ease-in;  
-    -o-transition:all 2s ease-in;  
-    transition:all 2s ease-in; 	
+    -webkit-transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+    display: block;
+    background-position: -10;
 
 }
-*/
