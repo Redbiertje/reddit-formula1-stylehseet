@@ -1630,3 +1630,15 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) li {
     position: relative;
     text-indent: -999pt;
 }
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) {
+    background: url(%%100k%%);
+    height: 200px;
+    margin-top: 0px;
+    list-style: none;
+    text-align: center;
+    line-height: 200px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
