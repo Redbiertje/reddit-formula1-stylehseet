@@ -155,14 +155,19 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li{font-s
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li{background:#222;color:#fff;margin:1px 0}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p{text-indent:25px;color:#b9b9b9;cursor:pointer;padding:10px;margin:0;font-size:10pt !important;}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type {
-padding: 5px;
-background: #3C3C3C;
-margin-top: 6px;
-font-size: 15px!important;
-font-weight: 100;
-color: rgb(26, 255, 0);
-text-shadow: 1px 1px 0 #171717;
-}html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type strong { font-weight:normal }
+    background: #3C3C3C;
+    margin-top: 10px;
+    font-size: 15px!important;
+    font-weight: 100;
+    text-shadow: 1px 1px 0 #171717;
+    padding: 0;
+    list-style-type: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type strong { font-weight:normal }
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:hover>p{text-indent:25px;color:#fff}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p:before,
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p:before,
@@ -1312,17 +1317,37 @@ html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(2) { display
 
 html:lang(nm) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(2) { display:inline-block; }
 
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type > ul {
+    padding-top: 5px;
+    margin-top: 0;
+    padding-bottom: 8px;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3) {
+    position: absolute;
+    top: 265px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    font-family: "Helvetica",verdana,arial sans-serif;
+    background: #3c3c3c;
+    height: 355px;
+    overflow: hidden;
+}
+
 html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4) {
-    background-color: rgba(0, 0, 0, 0.66);
+    background: none;
     color: #fff;
     position: absolute;
-    top: 432px;
+    top: 265px;
     width: 276px;
     right: 15px;
     border: 0 none;
     font-size: 10px;
     z-index: 10001;
     padding: 6px 6px;
+    opacity: .5;
 }
 
 html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4) a {
@@ -1340,12 +1365,25 @@ html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="race_of_champion
 }
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type a {
-    display: block;
-    float: right;
+    position: relative;
     color: #fff;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: bold;
+    width: 140px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    height: 30px;
+    left: 0px;
+    border: 1px solid #ccc;
+}
+
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-of-type a:nth-of-type(2) {
+    right: 0px;
+    left: inherit;
+    border-left: 0px;
 }
 
 /* new race thread template */
