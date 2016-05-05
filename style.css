@@ -1359,7 +1359,7 @@ html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4):hover {
     opacity: .8;
 }
 
-html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4):hover { background:#fff; }
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(4):hover a { background:#fff; }
 
 div#thing_t3_3tl34e .entry table {
     width: 100%;
