@@ -150,7 +150,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3) ul{list-style-type:none;pa
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3){position:absolute;top:265px;list-style-type:none;padding:0;margin:0;width:300px;font-family:'Helvetica',verdana,arial sans-serif;background:#3c3c3c; height:305px;overflow:hidden;}
 html:not([lang="ns"]) .listing-page .titlebox .md>ul:nth-of-type(3){height:auto;overflow:visible;border-bottom:1px solid #3c3c3c;}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type{background:url("%%chequered%%") no-repeat -60px 224px scroll #222;padding:10px;font-size:12pt;text-align:left;font-weight:900;color:#fff;border:0 none;text-transform:uppercase;margin:0}
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li{font-size:12px !important;font-weight:normal;padding-top:4px;text-transform:none}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li{font-size:14px !important;font-weight:normal;padding-top:4px;text-transform:none}
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li{background:#222;color:#fff;margin:1px 0}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>p{text-indent:25px;color:#b9b9b9;cursor:pointer;padding:10px;margin:0;font-size:10pt !important;}
