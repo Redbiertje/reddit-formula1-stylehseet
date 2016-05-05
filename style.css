@@ -113,7 +113,7 @@ html:not([lang="ns"]) .commentarea .thing.spam{background-color:#FA8072!importan
 /*sidebar*/
 html:not([lang="ns"]) .side{background:#ededed;margin:0;padding:505px 10px 10px;border-left:1px solid #d6d6d6;border-bottom:1px solid #f4f4f4}
 html:not([lang="ns"]) .res-nightmode .side { background:#171717;border-color:#000 }
-html:not([lang="ns"]) .listing-page .side{padding-top:668px;}
+html:not([lang="ns"]) .listing-page .side{padding-top:705px;}
 html:not([lang="ns"]) .titlebox .md > ul:nth-of-type(3):hover {
 height: 555px;
 z-index: 10000;
