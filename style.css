@@ -207,10 +207,10 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(6):hover:be
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(7):hover:before{display:block;content:"";background:#f1f1f1;height:10px;width:10px;position:absolute;margin-top:12px;left:-5px;z-index:101;-webkit-transform:rotate(45deg)}
 
 /*pops*/
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote{display:none;min-height:300px;color:#000;position:absolute;right:-9999pt;top:200px;width:325px;background:#f1f1f1;border:1px solid #CCC;padding:8px;z-index:100;opacity:0;-webkit-transition:opacity .4s}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote{display:none;min-height:340px;color:#000;position:absolute;right:-9999pt;top:200px;width:325px;background:#f1f1f1;border:1px solid #CCC;padding:8px;z-index:100;opacity:0;-webkit-transition:opacity .4s}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:hover blockquote{display:block;opacity:1;right:300px;}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4)>blockquote {
-  width: 450px;
+  width: 500px;
 }
 /*pop content*/
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li>blockquote p {
@@ -763,7 +763,15 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(3) table tr
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(2) table tr td:nth-of-type(1){font-weight:bold;vertical-align:top;}
 
 /*map*/
-html:not([lang="ns"]) .titlebox .md a[href="#map"]{width:450px;height:250px;display:block;background:url(%%circuit-map%%) no-repeat 0 0 scroll transparent;background-size:cover;text-indent:-9999pt;pointer-events:none}
+html:not([lang="ns"]) .titlebox .md a[href="#map"] {
+    width: 498px;
+    height: 302px;
+    display: block;
+    background: url(%%circuit-map%%) no-repeat 0 0 scroll transparent;
+    background-size: cover;
+    text-indent: -9999pt;
+    pointer-events: none;
+}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(4) blockquote p:nth-of-type(2) {
 margin: 7px 1px 0;
 padding: 0;
