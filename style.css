@@ -1497,18 +1497,18 @@ div.linkflair.linkflair-race .md table:nth-of-type(3) tr td:nth-of-type(1) {
     width: 45px;
 }
 
-div.linkflair.linkflair-race .md a[href="#rt_merc"],
-div.linkflair.linkflair-race .md a[href="#rt_mcl"],
-div.linkflair.linkflair-race .md a[href="#rt_man"],
-div.linkflair.linkflair-race .md a[href="#rt_ren"],
-div.linkflair.linkflair-race .md a[href="#rt_tor"],
-div.linkflair.linkflair-race .md a[href="#rt_rb"],
-div.linkflair.linkflair-race .md a[href="#rt_haas"],
-div.linkflair.linkflair-race .md a[href="#rt_sau"],
-div.linkflair.linkflair-race .md a[href="#rt_fer"],
-div.linkflair.linkflair-race .md a[href="#rt_fi"],
-div.linkflair.linkflair-race .md a[href="#rt_wil"]{
-    background-image: url(%%flag-med-sprite%%);
+div.linkflair .md a[href="#rt_merc"],
+div.linkflair .md a[href="#rt_mcl"],
+div.linkflair .md a[href="#rt_man"],
+div.linkflair .md a[href="#rt_ren"],
+div.linkflair .md a[href="#rt_tor"],
+div.linkflair .md a[href="#rt_rb"],
+div.linkflair .md a[href="#rt_haas"],
+div.linkflair .md a[href="#rt_sau"],
+div.linkflair .md a[href="#rt_fer"],
+div.linkflair .md a[href="#rt_fi"],
+div.linkflair .md a[href="#rt_wil"]{
+    background-image: url(%%flag-sprite-med%%);
     content: "";
     height: 39px;
     width: 50px;
@@ -1520,52 +1520,79 @@ div.linkflair.linkflair-race .md a[href="#rt_wil"]{
     margin-top:-1px;
 }
 
-div.linkflair.linkflair-race .md a[href="#rt_merc"] {
+div.linkflair.linkflair-post-race .md a[href="#rt_merc"],
+div.linkflair.linkflair-post-race .md a[href="#rt_mcl"],
+div.linkflair.linkflair-post-race .md a[href="#rt_man"],
+div.linkflair.linkflair-post-race .md a[href="#rt_ren"],
+div.linkflair.linkflair-post-race .md a[href="#rt_tor"],
+div.linkflair.linkflair-post-race .md a[href="#rt_rb"],
+div.linkflair.linkflair-post-race .md a[href="#rt_haas"],
+div.linkflair.linkflair-post-race .md a[href="#rt_sau"],
+div.linkflair.linkflair-post-race .md a[href="#rt_fer"],
+div.linkflair.linkflair-post-race .md a[href="#rt_fi"],
+div.linkflair.linkflair-post-race .md a[href="#rt_wil"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_merc"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_mcl"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_man"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_ren"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_tor"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_rb"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_haas"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_sau"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_fer"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_fi"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_wil"] {
+    background-size: 200px;
+    height:26px;
+    width:30px;
+}
+
+div.linkflair .md a[href="#rt_merc"], {
     background-position: -250px -310px;
 }
 
-div.linkflair.linkflair-race .md a[href="#rt_mcl"]{
+div.linkflair .md a[href="#rt_mcl"]{
     background-position: -201px -310px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_man"]{
+div.linkflair .md a[href="#rt_man"]{
     background-position: -150px -310px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_ren"]{
+div.linkflair .md a[href="#rt_ren"]{
     background-position: -50px -349px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_tor"]{
+div.linkflair .md a[href="#rt_tor"]{
     background-position: -150px -349px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_rb"]{
+div.linkflair .md a[href="#rt_rb"]{
     background-position: -300px -349px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_haas"]{
+div.linkflair .md a[href="#rt_haas"]{
     background-position: -100px -310px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_sau"]{
+div.linkflair .md a[href="#rt_sau"]{
     background-position: -100px -349px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_fer"]{
+div.linkflair .md a[href="#rt_fer"]{
     background-position: 0 -310px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_fi"]{
+div.linkflair .md a[href="#rt_fi"]{
     background-position: -50px -310px;
 }
-div.linkflair.linkflair-race .md a[href="#rt_wil"]{
+div.linkflair .md a[href="#rt_wil"]{
     background-position: -500px -349px;
 }
 
-div.linkflair.linkflair-race .md a[href="#rt_merc"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_mcl"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_ren"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_tor"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_rb"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_haas"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_sau"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_fer"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_fi"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_wil"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_man"]:after {
+div.linkflair .md a[href="#rt_merc"]:after,
+div.linkflair .md a[href="#rt_mcl"]:after,
+div.linkflair .md a[href="#rt_ren"]:after,
+div.linkflair .md a[href="#rt_tor"]:after,
+div.linkflair .md a[href="#rt_rb"]:after,
+div.linkflair .md a[href="#rt_haas"]:after,
+div.linkflair .md a[href="#rt_sau"]:after,
+div.linkflair .md a[href="#rt_fer"]:after,
+div.linkflair .md a[href="#rt_fi"]:after,
+div.linkflair .md a[href="#rt_wil"]:after,
+div.linkflair .md a[href="#rt_man"]:after {
     display: block;
     height: 11px;
     width: 16px;
@@ -1576,28 +1603,17 @@ div.linkflair.linkflair-race .md a[href="#rt_man"]:after {
     left: 0;
 }
 
-div.linkflair.linkflair-race .md a[href="#rt_merc"]:after { background-position:-284px -117px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_fi"]:after { background-position: -32px -257px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_mcl"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_wil"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_man"]:after { background-position: -284px -173px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_tor"]:after,
-div.linkflair.linkflair-race .md a[href="#rt_fer"]:after { background-position:-172px -257px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_rb"]:after { background-position: -4px -33px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_haas"]:after { background-position: -4px -565px; }
-
-div.linkflair.linkflair-race .md a[href="#rt_sau"]:after {
-    background-position: -198px -89px;
-    margin-left: -2px;
-}
-
-div.linkflair.linkflair-race .md a[href="#rt_ren"]:after { background-position: -228px -173px; }
-
+div.linkflair .md a[href="#rt_merc"]:after { background-position:-284px -117px; }
+div.linkflair .md a[href="#rt_fi"]:after { background-position: -32px -257px; }
+div.linkflair .md a[href="#rt_mcl"]:after,
+div.linkflair .md a[href="#rt_wil"]:after,
+div.linkflair .md a[href="#rt_man"]:after { background-position: -284px -173px; }
+div.linkflair .md a[href="#rt_tor"]:after,
+div.linkflair .md a[href="#rt_fer"]:after { background-position:-172px -257px; }
+div.linkflair .md a[href="#rt_rb"]:after { background-position: -4px -33px; }
+div.linkflair .md a[href="#rt_haas"]:after { background-position: -4px -565px; }
+div.linkflair .md a[href="#rt_sau"]:after {background-position: -198px -89px;margin-left: -2px;}
+div.linkflair .md a[href="#rt_ren"]:after { background-position: -228px -173px; }
 div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong {
     float: left;
     display: block;
@@ -1606,7 +1622,6 @@ div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong {
     margin: 0 10px;
     font-weight: normal;
 }
-
 div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(1) {
     font-weight: bold;
     background: #f1f1f1;
@@ -1615,31 +1630,61 @@ div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(1
     margin-left: 0;
     margin: 1px 1px 0 0;
 }
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3) {color: #9E9E9E;}
+div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3):before {content:"Q: ";}
+div.linkflair.linkflair-race .md table:nth-of-type(3) a {cursor: pointer;pointer-events: none;}
+.post-linkflair-post-race .linkflair .md table:nth-of-type(1) td {font-size: 11pt;line-height: 18pt;}
 
-div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3) {
-    color: #9E9E9E;
+
+div.linkflair.linkflair-post-race .md a[href="#rt_merc"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_merc"] {background-position: -368px -464px;}
+
+div.linkflair.linkflair-post-race .md a[href="#rt_fer"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_fer"] {background-position: -402px -720px;}
+
+div.linkflair.linkflair-post-race .md a[href="#rt_wil"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_wil"] {
+    background-position: -534px -490px;
 }
 
-div.linkflair.linkflair-race .md table:nth-of-type(3) tr td strong:nth-of-type(3):before {
-    content:"Q: ";
+div.linkflair.linkflair-post-race .md a[href="#rt_mcl"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_mcl"] {
+    background-position: -334px -464px;
 }
 
-div.linkflair.linkflair-race .md table:nth-of-type(3) a {
-    cursor: pointer;
-    pointer-events: none;
+div.linkflair.linkflair-post-race .md a[href="#rt_ren"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_ren"] {
+    background-position: -36px -490px;
 }
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before {
+div.linkflair.linkflair-post-race .md a[href="#rt_haas"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_haas"] {
+    background-position: -268px -464px;
+}
 
-content: "";
-    background: url(%%race-pic%%);
-    width: 300px;
-    height: 200px;
-    display: block;
-    position: relative;
-    top: -10px;
-    left: -10px;
+div.linkflair.linkflair-post-race .md a[href="#rt_rb"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_rb"] {
+    background-position: -402px -490px;
+}
 
+div.linkflair.linkflair-post-race .md a[href="#rt_tor"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_tor"] {
+    background-position: -102px -490px;
+}
+
+div.linkflair.linkflair-post-race .md a[href="#rt_sau"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_sau"] {
+    background-position: -68px -490px;
+}
+
+div.linkflair.linkflair-post-race .md a[href="#rt_man"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_man"] {
+    background-position: -302px -464px;
+}
+
+div.linkflair.linkflair-post-race .md a[href="#rt_fi"],
+div.linkflair.linkflair-post-qualifying .md a[href="#rt_fi"] {
+    background-position: -236px -464px;
 }
 
 /* 100,000 */
