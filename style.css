@@ -1407,7 +1407,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li:last-o
     border-left: 0px;
 }
 
-* new race thread template */
+/* new race thread template */
 
 div.linkflair.linkflair-race .md table:nth-of-type(1), 
 div.linkflair.linkflair-race .md table:nth-of-type(2) {
@@ -1508,7 +1508,7 @@ div.linkflair .md a[href="#rt_sau"],
 div.linkflair .md a[href="#rt_fer"],
 div.linkflair .md a[href="#rt_fi"],
 div.linkflair .md a[href="#rt_wil"]{
-    background-image: url(%%flag-med-med%%);
+    background-image: url(%%flag-med-sprite%%);
     content: "";
     height: 39px;
     width: 50px;
@@ -1686,6 +1686,7 @@ div.linkflair.linkflair-post-race .md a[href="#rt_fi"],
 div.linkflair.linkflair-post-qualifying .md a[href="#rt_fi"] {
     background-position: -236px -464px;
 }
+
 
 /* 100,000 */
 
