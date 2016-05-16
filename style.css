@@ -1693,6 +1693,12 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) {
     overflow: hidden;
 }
 
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
+    animation: 30s slide infinite;
+    position: relative;
+    height: 200px;
+}
+
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
     animation: none;
     position: absolute;
