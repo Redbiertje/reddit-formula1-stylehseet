@@ -1693,10 +1693,18 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) {
     overflow: hidden;
 }
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
-    animation: 30s slide infinite;
-    position: relative;
-    height: 200px;
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
+    animation: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    padding: 5px;
+    color: #fff;
+    right: 0;
+    bottom: 0;
+    background: none;
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.24) inset;
 }
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
