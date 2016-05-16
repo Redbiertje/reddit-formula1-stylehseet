@@ -1697,6 +1697,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
     animation: 30s slide infinite;
     position: relative;
     height: 200px;
+    z-index:10000;
 }
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
