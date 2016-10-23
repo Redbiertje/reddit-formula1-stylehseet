@@ -744,7 +744,7 @@ html:not([lang=ns]) #progressIndicator{font-weight:700;text-shadow:0 1px 0 #fff}
 /*alien car*/
 
 html:not([lang="ns"]) .side .usertext-body:before{display:block;content:'';height:300px;margin-bottom:-12px;background:url(%%tribute%%) no-repeat center 8px scroll #EDEDED; border-bottom:8px solid #ededed;border-top:5px solid #ededed;}
-html:not([lang="ns"]) .res-nightmode .side .usertext-body:before{display:none;}
+
 
 
 .formtabs-content {padding-top: 225px;position: relative;}
