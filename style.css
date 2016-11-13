@@ -1698,7 +1698,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
     position: relative;
     height: 200px;
     z-index:10000;
-    text-indet:-99999pt;
+    text-indent:-99999pt;
 }
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
