@@ -10,15 +10,15 @@ html:not([lang="ns"]) .res-nightmode { background-image:none; background-color:#
 
 /*header*/
 html:not([lang="ns"]) #header{font-family:"Helvetica",Arial,sans-serif}
-html:not([lang="ns"]) div#header-bottom-left{height:60px;background:url(%%chequered%%) no-repeat right 0 scroll #222;border-bottom:2px solid #c90000}
+html:not([lang="ns"]) div#header-bottom-left{height:110px;background:url(%%chequered%%) no-repeat right 0 scroll #222;border-bottom:2px solid #c90000}
 html:not([lang="ns"]) div#header-bottom-right{bottom:4px}
-html:not([lang="ns"]) div#header{background:#fff;height:80px;padding-bottom:35px;border-bottom:1px solid #ccc;box-shadow:0 0 1px #BEBEBE}
-html:not([lang="ns"]) div#header ul.tabmenu{position:absolute;top:87px;left:5px}
-html:not([lang="ns"]) #header-img{margin-top:5px;margin-right:5px;margin-left:10px}
+html:not([lang="ns"]) div#header{background:#fff;height:140px;padding-bottom:35px;border-bottom:1px solid #ccc;box-shadow:0 0 1px #BEBEBE}
+html:not([lang="ns"]) div#header ul.tabmenu{position:absolute;top:142px;left:5px}
+html:not([lang="ns"]) #header-img{margin-top:25px;margin-right:5px;margin-left:10px}
 html:not([lang="ns"]) div#sr-header-area{background:#2d2d2d;color:#fff;border-bottom:1px solid #222;height:20px;line-height:20px}
-html:not([lang="ns"]) .pagename{font-weight:300;font-variant:inherit;font-size:6pt;position:absolute;text-transform:uppercase;letter-spacing:1px;color:rgb(204,204,204);top:42px;display:inline-block;vertical-align:inherit;font-style:italic;text-indent:-99999pt;margin-left:5px;background:url(%%sprite%%) no-repeat -2px -168px scroll transparent;height:26px;width:95px;padding-left:20px;}
+html:not([lang="ns"]) .pagename{font-weight:300;font-variant:inherit;font-size:6pt;position:absolute;text-transform:uppercase;letter-spacing:1px;color:rgb(204,204,204);top:64px;display:inline-block;vertical-align:inherit;font-style:italic;text-indent:-99999pt;margin-left:5px;background:url(%%sprite%%) no-repeat -2px -168px scroll transparent;height:26px;width:95px;padding-left:20px;}
 html:not([lang="ns"]) .pagename a{display:block;height:19px;margin-left:-20px;}
-html:not([lang="ns"]) #header-bottom-right{top:86px;font-size:11px;background:transparent;height:24px;line-height:28px;padding:0;margin-right:10px}
+html:not([lang="ns"]) #header-bottom-right{top:142px;font-size:11px;background:transparent;height:24px;line-height:28px;padding:0;margin-right:10px}
 html:not([lang="ns"]) #userbarToggle{background:none repeat scroll 0% 0% transparent!important;color:#000;border-right:1px solid #ccc!important;padding-right:5px!important;left:-13px!important;border-radius:0px!important;height:18px!important;line-height:22px!important;top:2px!important}
 html:not([lang="ns"]) div.res-navTop a{color:#000}
 html:not([lang=ns]) div#header-bottom-left .tabmenu li{border-right:1px dotted #ccc;margin:0;padding:0 5px}
@@ -30,7 +30,7 @@ html:not([lang="ns"]) #sr-header-area .drop-choices.srdrop{z-index:1000;backgrou
 html:not([lang="ns"]) .drop-choices a.choice:hover{color:#000!important}
 
 /*content*/
-html:not([lang="ns"]) div.content{margin:90px 331px 10px 10px;padding:20px;background:#fff}
+html:not([lang="ns"]) div.content{margin:115px 331px 10px 10px;padding:20px;background:#fff}
 html:not([lang="ns"]) .listing-page div.content,
 html:not([lang="ns"]) .comments-page div.content{padding:0;background:transparent;position:relative}
 
@@ -113,7 +113,7 @@ html:not([lang="ns"]) .commentarea .thing.spam{background-color:#FA8072!importan
 /*sidebar*/
 html:not([lang="ns"]) .side{background:#ededed;margin:0;padding:505px 10px 10px;border-left:1px solid #d6d6d6;border-bottom:1px solid #f4f4f4}
 html:not([lang="ns"]) .res-nightmode .side { background:#171717;border-color:#000 }
-html:not([lang="ns"]) .listing-page .side{padding-top:705px;}
+html:not([lang="ns"]) .listing-page .side{padding-top:700px;}
 html:not([lang="ns"]) .titlebox .md > ul:nth-of-type(3):hover {
 height: 555px;
 z-index: 10000;
@@ -146,7 +146,7 @@ html:not([lang="ns"]) .res-nightmode .titlebox .md {border-color: #171717;}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before{content:"";display:block;height:200px;width:300px;margin:-10px -10px 10px;background:url(%%race-pic%%) no-repeat 0 0 scroll transparent}
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3) ul{list-style-type:none;padding:0;margin:0}
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3){position:absolute;top:265px;list-style-type:none;padding:0;margin:0;width:300px;font-family:'Helvetica',verdana,arial sans-serif;background:#3c3c3c; height:305px;overflow:hidden;}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3){position:absolute;top:320px;list-style-type:none;padding:0;margin:0;width:300px;font-family:'Helvetica',verdana,arial sans-serif;background:#3c3c3c; height:305px;overflow:hidden;}
 html:not([lang="ns"]) .listing-page .titlebox .md>ul:nth-of-type(3){height:auto;overflow:visible;border-bottom:1px solid #3c3c3c;}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type{background:url("%%chequered%%") no-repeat -60px 224px scroll #222;padding:10px;font-size:12pt;text-align:left;font-weight:900;color:#fff;border:0 none;text-transform:uppercase;margin:0}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(3)>li:first-of-type li{font-size:14px !important;font-weight:normal;padding-top:4px;text-transform:none}
@@ -218,7 +218,7 @@ margin: 10px 0 -10px;
 }
 
 /*stickies*/
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1){position:absolute;top:123px;left:10px;background:#FFF;list-style-type:none;margin:0;padding:0;padding-right:5px;border:1px solid rgba(187,187,187,0.52)}
+html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1){position:absolute;top:195px;left:10px;background:#FFF;list-style-type:none;margin:0;padding:0;padding-right:5px;border:1px solid rgba(187,187,187,0.52)}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li{display:inline;margin:0;padding:8px;border-left:1px solid #e2e2e2;float:left}
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(1),
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(3){font-weight:bold;text-align:center;border-left:0 none;background:#222;color:#fff;position:relative}
@@ -226,7 +226,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(1):after,
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(1)>li:nth-of-type(3):after{content:"";display:block;height:8px;width:8px;background:#222;position:absolute;-webkit-transform:rotate(-45deg);right:-4px;top:12px;bottom:auto}
 
 html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) {
-top: 124px;
+top: 194px;
 right: 332px;
 position: absolute;
 /*z-index: 1000;*/
@@ -248,7 +248,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(2) > li ul li a{width:100%;di
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote,
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>blockquote{max-height:0;overflow:hidden;opacity:0;background:transparent;padding-top:0;position:absolute;top:51px;border-top:2px solid #454545;-webkit-transition:max-height 0.5s, opacity 0.5s;-moz-transition:max-height 0.5s, opacity 0.5s;-o-transition:max-height 0.5s, opacity 0.5s;transition:max-height 0.5s, opacity 0.5s;}
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1),
-html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2){top:30px;left:0px;position:absolute;z-index:1000;display:block}
+html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2){top:52px;left:0px;position:absolute;z-index:1000;display:block}
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>h1,
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(2)>h1{display:block;height:61px;width:58px;background:#222;position:absolute;top:-10px;left:190px;text-indent:-999pt;border-radius:0;color:#fff;border-right:1px solid #2C2C2C;border-left:1px solid #2C2C2C;margin:0;padding:0;cursor:pointer}
 html:not([lang="ns"]) .titlebox .md>blockquote:nth-of-type(1)>blockquote,
@@ -310,7 +310,7 @@ border-bottom:1px solid #E7E7E7;
 }
 
 /*search*/
-html:not([lang="ns"]) .side #search{top:127px;right:10px;position:absolute;z-index:2}
+html:not([lang="ns"]) .side #search{top:230px;right:10px;position:absolute;z-index:2}
 html:not([lang="ns"]) #search input[type="text"]{height:32px;border-color:#c0c0c0}
 
 /*Session Threads*/
@@ -382,7 +382,7 @@ html:not([lang="ns"]) .fancy-toggle-button .remove,
 html:not([lang="ns"]) .RESshortcutside.remove,
 html:not([lang="ns"]) .REStoggle.remove{color:rgb(255,255,255)!important;background-color:rgb(217,83,79)!important;border-color:rgb(212,63,58)!important;background-image:none!important}
 html:not([lang="ns"]) .RESshortcutside,html:not([lang="ns"]) .REStoggle{color:rgb(255,255,255);background-color:rgb(92,184,92);border-color:rgb(76,174,76)!important;background-image:none!important}
-html:not([lang="ns"]) .side .spacer .submit-link{position:absolute;top:170px;right:10px;width:298px}
+html:not([lang="ns"]) .side .spacer .submit-link{position:absolute;top:230px;right:10px;width:298px}
 html:not([lang="ns"]) .submit-link .morelink{color:#fff;background-color:#B00000;border-color:#C50000;background-image:-webkit-linear-gradient(top,#C20306,#B00000);background:-moz-linear-gradient(top,#C20306,#B00000);background:-ms-linear-gradient(top,#C20306,#B00000);background:-o-linear-gradient(top,#C20306,#B00000);height:32px;line-height:32px;text-transform:uppercase;background-position:0;text-shadow:0 1px 0 #5C0000}
 html:not([lang="ns"]) .submit-link .morelink a{color:rgb(255,255,255);font-size:16px;font-weight:900;letter-spacing:.5px}
 
@@ -1184,7 +1184,7 @@ html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(3) {
   color: red;
   position: absolute;
   left: 10px;
-  top: 164px;
+  top: 238px;
   font-size: 11px;
   text-align: left;
 }
@@ -1230,7 +1230,7 @@ html:not([lang="ns"]) a.message-count {
 html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a {display: inline-block;width: 148px;font-size: 12px;text-align: center;padding: 5px 0;border-right: 1px solid #ccc;color: #7B7B7B;}
 html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:nth-of-type(3) {border-right: 0 none;}
 html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) a:hover {background-color: #EFEFEF;color: #000;}
-html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) {background-color: #E0E0E0;border: 0 none;margin: 0;padding: 0;position: absolute;top: 216px;width: 298px;right: 10px;border: 1px solid #ccc;}
+html:not([lang="ns"]) .titlebox .md>h1:nth-of-type(2) {background-color: #E0E0E0;border: 0 none;margin: 0;padding: 0;position: absolute;top: 278px;width: 298px;right: 10px;border: 1px solid #ccc;}
 html:lang(nm) .link.linkflair-media, 
 html:lang(nm) .link.linkflair-video,
 .link.linkflair-media .linkflairlabel,
@@ -1689,7 +1689,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) {
     height: 200px;
     width: 300px;
     position: absolute;
-    top: 265px;
+    top: 320px;
     overflow: hidden;
 }
 
