@@ -1682,13 +1682,15 @@ html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table {
     width: 100%%;
 }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table strong {
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table strong {
     display: block;
     width: 100%;
     text-align: left;
-    padding: 0 10px;
+    padding: 0 10px 10px;
     font-weight: normal;
 }
+
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table td strong:nth-of-type(2) { padding-bottom:0; }
 
 html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td {
     width: 100%;
