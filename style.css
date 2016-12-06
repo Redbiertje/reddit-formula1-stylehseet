@@ -1602,53 +1602,8 @@ div.linkflair.linkflair-post-qualifying .md a[href="#rt_fi"] {
 }
 
 
-/* 100,000 */
+/* Drivers */
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4):hover li:after {
-    bottom: 0px;
-}
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) li:after {
-    content: "";
-    height: 200px;
-    width: 300px;
-    background: url(%%b%%);
-    position: absolute;
-    left: 0;
-    bottom: -200px;
-    -webkit-transition: all 1s ease-in;
-    -moz-transition: all 1s ease-in;
-    -o-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-}
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) li:before {
-    content: "";
-    height: 20px;
-    width: 300px;
-    position: absolute;
-    background: url(%%a%%);
-    left: 0px;
-    bottom: 0;
-    z-index: 2;
-}
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) li {
-    line-height: 200px;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    text-indent: -999pt;
-}
-
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(4) {
-    background: url(%%100k%%);
-    height: 200px;
-    margin-top: 0px;
-    list-style: none;
-    text-align: center;
-    line-height: 200px;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-}
 
 
 
