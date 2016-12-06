@@ -1671,3 +1671,42 @@ html:not([lang="ns"]) .titlebox .md>ul:last-of-type>li:nth-of-type(4) {
 html:not([lang="ns"]) .titlebox .md>ul:last-of-type > li:nth-of-type(1) { background:url(%%race-pic%%); }
 html:not([lang="ns"]) .titlebox .md>ul:last-of-type  > li:nth-of-type(2) { background:url(%%race-pic-2%%); }
 html:not([lang="ns"]) .titlebox .md>ul:last-of-type > li:nth-of-type(3) { background:url(%%race-pic-3%%); }
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type {
+    background: #ffffff;
+    border-bottom: 10px solid #ededed;
+    padding: 10px;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table {
+    width: 100%%;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table strong {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0 10px;
+    font-weight: normal;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    border: 0;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td:nth-of-type(1) {
+    background: #ededed;
+    border: 1px solid #ccc;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td:nth-of-type(2) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table thead {
+    display: none;
+}
