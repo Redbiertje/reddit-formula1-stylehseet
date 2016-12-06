@@ -1637,7 +1637,7 @@ div.linkflair.linkflair-post-qualifying .md a[href="#rt_fi"] {
 }
 
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) {
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -1648,7 +1648,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) {
     overflow: hidden;
 }
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type>li {
     animation: 30s slide infinite;
     position: relative;
     height: 200px;
@@ -1656,7 +1656,7 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li {
     text-indent:-99999pt;
 }
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type>li:nth-of-type(4) {
     animation: none;
     position: absolute;
     top: 0px;
@@ -1668,6 +1668,6 @@ html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5)>li:nth-of-type(4) {
     right: 0px;
 }
 
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) > li:nth-of-type(1) { background:url(%%race-pic%%); }
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) > li:nth-of-type(2) { background:url(%%race-pic-2%%); }
-html:not([lang="ns"]) .titlebox .md>ul:nth-of-type(5) > li:nth-of-type(3) { background:url(%%race-pic-3%%); }
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type > li:nth-of-type(1) { background:url(%%race-pic%%); }
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type  > li:nth-of-type(2) { background:url(%%race-pic-2%%); }
+html:not([lang="ns"]) .titlebox .md>ul:last-of-type > li:nth-of-type(3) { background:url(%%race-pic-3%%); }
