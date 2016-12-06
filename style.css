@@ -1679,7 +1679,7 @@ html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type {
 }
 
 html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table {
-    width: 100%%;
+    width: 100%;
 }
 
 html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table strong {
@@ -1711,4 +1711,37 @@ html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td:nth-
 
 html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table thead {
     display: none;
+}
+
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table em {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 8pt;
+    background: #ededed;
+    padding: 0 2px;
+    text-align: center;
+    border: 1px solid #ccc;
+    min-width: 20px;
+}
+
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type > p > a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background: #ededed;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: orangered;
+	transition: all 0.5s ease;
+}
+
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type > p > a:hover {
+	background:#222222;
+	color:#fff;
+	transition: all 0.5s ease;
 }
