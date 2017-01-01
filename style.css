@@ -1745,3 +1745,16 @@ html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type > p > a:hover {
 	color:#fff;
 	transition: all 0.5s ease;
 }
+
+html:not([lang="ns"]) a[href="https://www.reddit.com/user/SauberF1Team"]:after {
+    content: "Verified Account";
+    display: inline-block;
+    font-weight: normal;
+    background: #ccc;
+    padding: 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: #737373;
+}
