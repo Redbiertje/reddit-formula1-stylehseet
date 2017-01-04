@@ -1678,11 +1678,11 @@ html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type {
     padding: 10px;
 }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table {
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table:last-of-type {
     width: 100%;
 }
 
-html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table strong {
+html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table:last-of-type strong {
     display: block;
     width: 100%;
     text-align: left;
@@ -1692,24 +1692,24 @@ html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table strong {
 
 html:not([lang="ns"]) .titlebox .md>blockquote:last-of-type>table td strong:nth-of-type(2) { padding-bottom:0; }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td {
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table:last-of-type tr td {
     width: 100%;
     display: inline-block;
     padding: 10px 0;
     border: 0;
 }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td:nth-of-type(1) {
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table:last-of-type tr td:nth-of-type(1) {
     background: #ededed;
     border: 1px solid #ccc;
 }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table tr td:nth-of-type(2) {
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table:last-of-type tr td:nth-of-type(2) {
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
 }
 
-html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table thead {
+html:not([lang="ns"]) .titlebox .md > blockquote:last-of-type > table:last-of-type thead {
     display: none;
 }
 
