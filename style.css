@@ -1759,3 +1759,9 @@ html:not([lang="ns"]) a[href="https://www.reddit.com/user/ForceIndiaF1"]:after{
     text-transform: uppercase;
     color: #737373;
 }
+
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:last-of-type,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:last-of-type>p>a,
+html:not([lang="ns"]) .res-nightmode .titlebox .md>blockquote:last-of-type>table:last-of-type tr td:nth-of-type(1) {
+	background:#000;
+}
