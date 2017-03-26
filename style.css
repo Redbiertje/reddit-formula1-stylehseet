@@ -10,7 +10,7 @@ html:not([lang="ns"]) .res-nightmode { background-image:none; background-color:#
 
 /*header*/
 html:not([lang="ns"]) #header{font-family:"Helvetica",Arial,sans-serif}
-html:not([lang="ns"]) div#header-bottom-left{height:110px;background:url(%%chequered%%) no-repeat right 0 scroll #08090b;border-bottom:2px solid #c90000}
+html:not([lang="ns"]) div#header-bottom-left{height:110px;background:url(%%headersketch%%) no-repeat right 0 scroll #08090b;border-bottom:2px solid #c90000}
 html:not([lang="ns"]) div#header-bottom-right{bottom:4px}
 html:not([lang="ns"]) div#header{background:#fff;height:140px;padding-bottom:35px;border-bottom:1px solid #ccc;box-shadow:0 0 1px #BEBEBE}
 html:not([lang="ns"]) div#header ul.tabmenu{position:absolute;top:142px;left:5px}
@@ -1300,26 +1300,6 @@ margin-right: 4px;
 .flair-NicoHulkenberg17alt:before, a[href="#NicoHulkenberg17alt"] {background-position:-0 -3313px}
 .flair-NigelMansell:before, a[href="#NigelMansell"] {background-position:-0 -3332px}
 .flair-NikiLauda:before, a[href="#NikiLauda"] {background-position:-0 -3349px}
-.flair-no11:before, a[href="#no11"] {background-position:-0 -3368px}
-.flair-no14:before, a[href="#no14"] {background-position:-0 -3386px}
-.flair-no18:before, a[href="#no18"] {background-position:-0 -3403px}
-.flair-no19:before, a[href="#no19"] {background-position:-0 -3421px}
-.flair-no2:before, a[href="#no2"] {background-position:-0 -3439px}
-.flair-no20:before, a[href="#no20"] {background-position:-0 -3457px}
-.flair-no26:before, a[href="#no26"] {background-position:-0 -3476px}
-.flair-no27:before, a[href="#no27"] {background-position:-0 -3494px}
-.flair-no3:before, a[href="#no3"] {background-position:-0 -3511px}
-.flair-no30:before, a[href="#no30"] {background-position:-0 -3530px}
-.flair-no31:before, a[href="#no31"] {background-position:-0 -3548px}
-.flair-no33:before, a[href="#no33"] {background-position:-0 -3566px}
-.flair-no44:before, a[href="#no44"] {background-position:-0 -3584px}
-.flair-no5:before, a[href="#no5"] {background-position:-0 -3602px}
-.flair-no55:before, a[href="#no55"] {background-position:-0 -3620px}
-.flair-no7:before, a[href="#no7"] {background-position:-0 -3638px}
-.flair-no77:before, a[href="#no77"] {background-position:-0 -3656px}
-.flair-no8:before, a[href="#no8"] {background-position:-0 -3673px}
-.flair-no9:before, a[href="#no9"] {background-position:-0 -3691px}
-.flair-no94:before, a[href="#no94"] {background-position:-0 -3710px}
 .flair-Pacific:before, a[href="#Pacific"] {background-position:-0 -3728px}
 .flair-PascalWehrlein:before, a[href="#PascalWehrlein"] {background-position:-0 -3745px}
 .flair-PascalWehrlein17:before, a[href="#PascalWehrlein17"] {background-position:-0 -3763px}
