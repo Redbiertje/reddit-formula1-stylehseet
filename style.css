@@ -84,31 +84,7 @@ html:not([lang="ns"]) .linkinfo span.word
 html:not([lang="ns"]) .linkinfo { background-color:#F4F4F4; }
 
 /*comments*/
-html:not([lang="ns"]) .comments-page div.content{padding:0;background:none}
-html:not([lang="ns"]) .comments-page .commentarea{margin-top:5px;padding:0}
-html:not([lang="ns"]) .comments-page .sitetable{background:#fff}
-html:not([lang="ns"]) .comments-page .commentarea .sitetable{background:none;margin-top:15px;border-left:0 none}
-html:not([lang="ns"]) .commentarea>.usertext{padding:0 20px;overflow:auto;background:#fff;margin:0}
-html:not([lang="ns"]) .commentarea .menuarea{border:none;margin:0;padding:10px 20px 0px;color:gray;background:#fff}
-html:not([lang="ns"]) .panestack-title{padding:10px 20px;border-bottom:1px dotted gray;background:#fff;margin:0}
-html:not([lang="ns"]) #noresults{width:100%;text-align:center;padding:10px 0;font-weight:bold;text-shadow:0 1px 0 #fff}
-html:not([lang="ns"])  .comment .child{border-left:0 none}
-html:not([lang="ns"]) .res .commentarea .thing{border-top:0!important;border-bottom:0!important;border-right:0!important;margin-left:0!important;margin-right:0!important}
-html:not([lang="ns"]) .commentarea .thing{background:#fff;border-left:3px #ccc solid!important;padding:5px;margin:0 0 3px 0;border-top:medium none;border-right:medium none;border-bottom:medium none}
-html:not([lang="ns"]) .commentarea>.thing{box-shadow:0px 0px 1px rgb(227,227,227)}
-html:not([lang="ns"]) .commentarea .thing .entry{padding:3px 5px 0}
-html:not([lang="ns"]) .usertext.grayed .usertext-body{margin-top:10px}
-html:not([lang="ns"]) .thing .morerecursion{margin-bottom:10px}
-html:not([lang="ns"]) .commentarea .child .thing{border:none;border-left:2px rgb(227,227,227) solid!important;padding:5px 5px 2px 4px;background:#f7f7f7}
-html:not([lang="ns"]) .commentarea .child .thing .child .thing{border:none;border-left:1px #ccc solid!important;background:#fff}
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing,
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing,
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#f7f7f7}
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing,
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
-html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#fff}
-html:not([lang="ns"]) .commentarea .thing.spam{background-color:#FA8072!important}
+
 
 /*sidebar*/
 html:not([lang="ns"]) .side{background:#ededed;margin:0;padding:505px 10px 10px;border-left:1px solid #d6d6d6;border-bottom:1px solid #f4f4f4}
