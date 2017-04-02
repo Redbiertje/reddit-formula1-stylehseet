@@ -1,3 +1,51 @@
+/*dammit, april*/
+html:lang(kq) a.author:after,html:lang(kq) span.user>a:after{content:"quokka"}
+html:lang(kq) a.author{text-transform:lowercase}
+html:lang(kq) .pagename a:after{display:block;background:red;content:"quokka";font-size:10pt;z-index:10000;color:white;position:absolute;left:30px;top:15px;height:22px;text-indent:0;padding:2px 10px;-ms-transform:rotate(-7deg);-webkit-transform:rotate(-7deg);transform:rotate(-7deg);font-family:"Comic Sans MS",cursive,sans-serif}
+html:lang(kq) .arrow.up{background:url(%%fin-g%%);width:17px;height:12px}
+html:lang(kq).arrow.up:hover,
+html:lang(kq) .arrow.upmod{background:url(%%flags%%) -88px -173px no-repeat;width:17px;height:12px}
+html:lang(kq) .md > h2 {font-weight: bold;color: #4f4f4f;padding-left: 10px;font-family: arial;}
+html:lang(kq) .md > table {width: 280px;margin: 0 auto;}
+html:lang(kq) .upmod:focus:before{content:"";position:absolute;height:40px;width:40px;-webkit-animation:5s uvsmallh linear;animation:5s uvsmallh linear;background-size:contain;background-repeat:no-repeat;background-image:url("%%magnum%%");opacity:0;z-index:1000}html:lang(kq) .upmod:focus:after{content:"";position:absolute;height:40px;width:40px;-webkit-animation:15s uvsmallh2 linear;animation:15s uvsmallh2 linear;background-size:contain;background-repeat:no-repeat;background-image:url("%%magnum%%");opacity:0;z-index:1000}
+html:lang(kq) .downmod:focus:before{content:"";position:absolute;height:40px;width:40px;-webkit-animation:5s uvsmallh linear;animation:5s uvsmallh linear;background-size:contain;background-repeat:no-repeat;background-image:url("%%quokka%%");opacity:0;z-index:1000}
+html:lang(kq) .downmod:focus:after{content:"";position:absolute;height:40px;width:40px;-webkit-animation:15s uvsmallh2 linear;animation:15s uvsmallh2 linear;background-size:contain;background-repeat:no-repeat;background-image:url("%%quokka%%");opacity:0;z-index:1000}
+@-webkit-keyframes uvsmallh{from{transform:none;opacity:1}to{transform:translate(200px,-200px) rotate(1800deg);opacity:0}}
+@keyframes uvsmallh{from{transform:none;opacity:1}to{transform:translate(200px,-200px) rotate(1800deg);opacity:0}}
+@-webkit-keyframes uvsmallh2{from{transform:none;opacity:1}to{transform:translate(800px,1500px) rotate(-600deg);opacity:0}}
+@keyframes uvsmallh2{from{transform:none;opacity:1}to{transform:translate(800px,1500px) rotate(-600deg);opacity:0}}
+html:lang(kq) div#header:after {
+    content: "April 1, 2017";
+    background: #fff;
+    top: 100px;
+    position: absolute;
+    left: 107px;
+    padding: 3px 6px;
+    color: red;
+    transform: rotate(-7deg);
+    z-index: 10001;
+    border: 1px solid red;
+}
+html:lang(kq) .titlebox .md>ul:nth-of-type(3)>li:nth-of-type(1):before,
+html:lang(kq) .titlebox .md>ul:last-of-type>li:nth-of-type(1) { background-image:url(%%kq-race-pic%%) !important}
+html:lang(kq) .titlebox .md>ul:last-of-type>li:nth-of-type(2) { background-image:url(%%kq-race-pic-2%%) !important}
+html:lang(kq) .titlebox .md>ul:last-of-type>li:nth-of-type(3) { background-image:url(%%kq-race-pic-3%%) !important}
+html:lang(kq) .side .usertext-body:before { background-image:url(%%kq-tribute%%) !important}
+html:lang(kq) div#header-bottom-left { background-image:url(%%kq-headersketch%%) !important}
+html:lang(kq) .linklisting .linkflair-kq {display: inherit !important;}
+
+html:not([lang=ns]) .linklisting .thing.linkflair-kq {
+    display: none;
+}
+
+.linkflair-kq span.linkflairlabel { display:none; }
+
+html:lang(kq) .flair:before {
+    background-size: inherit;
+    background-position: 0 -2377px !important;
+}
+
+
 /*one*/
 html:not([lang="ns"]) div#header,html:not([lang="ns"]) div#sr-header-area,html:not([lang="ns"]) div#header-bottom-right{border:0 none;background:none;border-radius:0}
 /* add this later: html:not([lang="ns"]) .link .rank */html:not([lang="ns"]) .side .submit-text,html:not([lang="ns"]) .submit .morelink .nub,html:not([lang="ns"]) h1.redditname,html:not([lang="ns"]) .side .leavemoderator,html:not([lang="ns"]) .side .leavecontributor-button,html:not([lang="ns"]) .sidebox.create,html:not([lang="ns"]) .bottom,.post-linkflair-practice .linkflair .md table .keyNavAnnotation,.post-linkflair-qualifying .linkflair .md table .keyNavAnnotation,.post-linkflair-post-qualifying .linkflair .md table .keyNavAnnotation,.post-linkflair-race .linkflair .md table .keyNavAnnotation,.post-linkflair-post-race .linkflair .md table .keyNavAnnotation{display:none}
@@ -84,7 +132,31 @@ html:not([lang="ns"]) .linkinfo span.word
 html:not([lang="ns"]) .linkinfo { background-color:#F4F4F4; }
 
 /*comments*/
-
+html:not([lang="ns"]) .comments-page div.content{padding:0;background:none}
+html:not([lang="ns"]) .comments-page .commentarea{margin-top:5px;padding:0}
+html:not([lang="ns"]) .comments-page .sitetable{background:#fff}
+html:not([lang="ns"]) .comments-page .commentarea .sitetable{background:none;margin-top:15px;border-left:0 none}
+html:not([lang="ns"]) .commentarea>.usertext{padding:0 20px;overflow:auto;background:#fff;margin:0}
+html:not([lang="ns"]) .commentarea .menuarea{border:none;margin:0;padding:10px 20px 0px;color:gray;background:#fff}
+html:not([lang="ns"]) .panestack-title{padding:10px 20px;border-bottom:1px dotted gray;background:#fff;margin:0}
+html:not([lang="ns"]) #noresults{width:100%;text-align:center;padding:10px 0;font-weight:bold;text-shadow:0 1px 0 #fff}
+html:not([lang="ns"])  .comment .child{border-left:0 none}
+html:not([lang="ns"]) .res .commentarea .thing{border-top:0!important;border-bottom:0!important;border-right:0!important;margin-left:0!important;margin-right:0!important}
+html:not([lang="ns"]) .commentarea .thing{background:#fff;border-left:3px #ccc solid!important;padding:5px;margin:0 0 3px 0;border-top:medium none;border-right:medium none;border-bottom:medium none}
+html:not([lang="ns"]) .commentarea>.thing{box-shadow:0px 0px 1px rgb(227,227,227)}
+html:not([lang="ns"]) .commentarea .thing .entry{padding:3px 5px 0}
+html:not([lang="ns"]) .usertext.grayed .usertext-body{margin-top:10px}
+html:not([lang="ns"]) .thing .morerecursion{margin-bottom:10px}
+html:not([lang="ns"]) .commentarea .child .thing{border:none;border-left:2px rgb(227,227,227) solid!important;padding:5px 5px 2px 4px;background:#f7f7f7}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing{border:none;border-left:1px #ccc solid!important;background:#fff}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#f7f7f7}
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing,
+html:not([lang="ns"]) .commentarea .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing .child .thing{background:#fff}
+html:not([lang="ns"]) .commentarea .thing.spam{background-color:#FA8072!important}
 
 /*sidebar*/
 html:not([lang="ns"]) .side{background:#ededed;margin:0;padding:505px 10px 10px;border-left:1px solid #d6d6d6;border-bottom:1px solid #f4f4f4}
