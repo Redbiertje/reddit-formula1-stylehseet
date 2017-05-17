@@ -603,6 +603,7 @@ html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="russian"],
 html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="sochi"],
 html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="united_states"],
 html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="brazilian"],
+html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="azerbaijan"],
 html:not([lang="ns"]) .linkflair-feature a.thumbnail[href*="abu_dhabi"]{background-image:url(%%flag-med-sprite%%);width:60px;height:60px;border-radius:2px}
 
 /*Country Flags*/
@@ -640,7 +641,8 @@ html:not([lang="ns"]) a[href="#po"],html:not([lang="ns"]) a[href="/po"],
 html:not([lang="ns"]) a[href="#ar"],html:not([lang="ns"]) a[href="/ar"],
 html:not([lang="ns"]) a[href="#no"],html:not([lang="ns"]) a[href="/no"],
 html:not([lang="ns"]) a[href="#sct"],html:not([lang="ns"]) a[href="/sct"],
-html:not([lang="ns"]) a[href="#id"],html:not([lang="ns"]) a[href="/id"]
+html:not([lang="ns"]) a[href="#id"],html:not([lang="ns"]) a[href="/id"],
+html:not([lang="ns"]) a[href="#az"],html:not([lang="ns"]) a[href="/az"]
 {background-image:url(%%flags%%);background-repeat:no-repeat;background-color:transparent;width:16px;height:11px;text-indent:-99999pt;display:inline-block;position:relative;margin-right:2px;top:1px;padding:0}
 html:not([lang="ns"]) a[href="#au"],html:not([lang="ns"]) a[href="/au"]{background-position:-32px -33px}
 html:not([lang="ns"]) a[href="#br"],html:not([lang="ns"]) a[href="/br"]{background-position:-172px -61px}
@@ -677,6 +679,7 @@ html:not([lang="ns"]) a[href="#no"],html:not([lang="ns]) a[href="/no"]{backgroun
 html:not([lang="ns"]) a[href="#sct"],html:not([lang="ns]) a[href="/sct"]{background-position:-144px -397px}
 html:not([lang="ns"]) a[href="#en"], html:not([lang="ns"]) a[href="/en"] {background-position: -32px -145px;}
 html:not([lang="ns"]) a[href="#id"], html:not([lang="ns"]) a[href="/id"] {background-position:-256px -229px;}
+html:not([lang="ns"]) a[href="#az"], html:not([lang="ns"]) a[href="/az"] {background-position:-116px -33px;}
 
 /*[8.6] Thumbnails for Session Threads */
 html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="australian"],
@@ -702,6 +705,7 @@ html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="russian"]{backgr
 html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="sochi"]{background-position:0px -180px}
 html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="united_states"]{background-position:-60px -180px}
 html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="brazilian"]{background-position:-120px -180px}
+html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="azerbaijan"]{background-position:-240px -180px}
 html:not([lang="ns"]) .linklisting .linkflair .thumbnail[href*="abu_dhabi"]{background-position:-180px -180px}
 
 html:not([lang="ns"]) #srList{z-index:50001!important}
